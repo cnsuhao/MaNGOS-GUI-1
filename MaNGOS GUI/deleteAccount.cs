@@ -30,7 +30,7 @@ namespace MaNGOS_GUI
 
                         if (sData.checkAccountExists(textAccountName.Text))
                         {
-                            string commandString = "delete " + textAccountName.Text;
+                            string commandString = "account delete " + textAccountName.Text;
                             ManguiMain.mangosProcess.StandardInput.WriteLine(commandString);
 
                             ConfigAccess.updateLog(commandString);
