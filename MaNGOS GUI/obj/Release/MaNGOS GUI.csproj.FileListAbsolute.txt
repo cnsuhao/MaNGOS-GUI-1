@@ -1,0 +1,60 @@
+C:\MaNGOS\MaNGOS-GUI-2009\MaNGOS GUI\bin\Release\MaNGOS GUI.exe.config
+C:\MaNGOS\MaNGOS-GUI-2009\MaNGOS GUI\bin\Release\MaNGOS GUI 2009.exe.config
+C:\asd\Gui\src\cope\MaNGOS-GUI-2009\MaNGOS GUI\bin\Release\MaNGOS GUI.exe.config
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\bin\Release\MaNGOS GUI.exe.config
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\ResolveAssemblyReference.cache
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.broadcastMessage.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.createAccount.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.deleteAccount.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.deleteCharacter.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.editConfig.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.kickCharacter.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.listBans.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.listGM.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.loadDump.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.ManguiMain.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.playerLimit.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.Properties.Resources.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.Resources.hcStringResources.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.sendMessage.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.serverBans.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.serverShutdown.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setBC.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setGM.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setMOTD.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setPassword.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.teleChar.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.writeDump.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.broadcastMessage.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.createAccount.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.deleteAccount.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.deleteCharacter.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.editConfig.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.kickCharacter.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.listBans.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.listGM.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.loadDump.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.loadDump.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.ManguiMain.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.playerLimit.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.playerLimit.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.Resources.hcStringResources.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.sendMessage.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.sendMessage.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.serverBans.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.serverShutdown.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.serverShutdown.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setBC.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setBC.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setGM.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setGM.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setMOTD.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setMOTD.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setPassword.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.setPassword.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.teleChar.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.teleChar.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.writeDump.es.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS_GUI.writeDump.fr.resources
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS GUI.csproj.GenerateResource.Cache
+C:\asd\Gui\src\MaNGOS-GUI\MaNGOS GUI\obj\Release\MaNGOS GUI.exe.licenses
