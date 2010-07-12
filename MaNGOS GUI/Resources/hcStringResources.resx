@@ -145,18 +145,23 @@
     <value>This account does not exist.</value>
     <comment>R.26</comment>
   </data>
-  <data name="setBC_Activate" xml:space="preserve">
-    <value>Activate BC</value>
+  <data name="setexp_wotlk" xml:space="preserve">
+    <value>Wrath of The Lich King</value>
+    <comment>R.26</comment>
+  </data>
+  <data name="setexp_bc" xml:space="preserve">
+    <value>Burning Crusade</value>
+    <comment>R.26</comment>
+  </data>
+  <data name="setexp_classic" xml:space="preserve">
+    <value>Classic</value>
     <comment>R.26</comment>
   </data>
   <data name="setBC_ChooseAction" xml:space="preserve">
     <value>Please choose Activate/Deactivate BC.</value>
     <comment>R.26</comment>
   </data>
-  <data name="setBC_deactivate" xml:space="preserve">
-    <value>Deactivate BC</value>
-    <comment>R.26</comment>
-  </data>
+
   <data name="setBC_EnterAccount" xml:space="preserve">
     <value>Please enter an account to modify.</value>
     <comment>R.26</comment>

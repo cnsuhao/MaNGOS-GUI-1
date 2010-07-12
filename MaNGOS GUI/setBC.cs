@@ -23,10 +23,13 @@ namespace MaNGOS_GUI
             {
                 string bcLevel = null;
 
-                if (comboBC.Text == Resources.hcStringResources.setBC_Activate)
-                    bcLevel = "1";
+                if (comboBC.Text == Resources.hcStringResources.setexp_wotlk)
+                    bcLevel = "2";
 
-                if (comboBC.Text == Resources.hcStringResources.setBC_deactivate)
+                if (comboBC.Text == Resources.hcStringResources.setexp_bc)
+                    bcLevel = "1"
+                        ;
+                if (comboBC.Text == Resources.hcStringResources.setexp_classic)
                     bcLevel = "0";
 
                 if (!String.IsNullOrEmpty(accountComboBox1.Text))
@@ -37,7 +40,7 @@ namespace MaNGOS_GUI
 
                         if (sData.checkAccountExists(accountComboBox1.Text))
                         {
-                            string commandString = "setbc " + accountComboBox1.Text + " " + bcLevel;
+                            string commandString = "account set addon " + accountComboBox1.Text + " " + bcLevel;
                             ManguiMain.mangosProcess.StandardInput.WriteLine(commandString);
 
                             ConfigAccess.updateLog(commandString);
