@@ -1272,5 +1272,11 @@ namespace MaNGOS_GUI
             }
         }
 
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form showAboutBox1 = new AboutBox1();
+            showAboutBox1.Show();
+        }
+
     }
 }

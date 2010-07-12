@@ -72,6 +72,9 @@ namespace MaNGOS_GUI
             this.menuLists = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBanList = new System.Windows.Forms.ToolStripMenuItem();
             this.menuGMList = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             this.cpuTimer = new System.Windows.Forms.Timer(this.components);
             this.labelMangosUpTime = new System.Windows.Forms.Label();
@@ -163,7 +166,8 @@ namespace MaNGOS_GUI
             this.menuServerOptions,
             this.menuAccountOptions,
             this.menuCharacterOptions,
-            this.menuLists});
+            this.menuLists,
+            this.aboutToolStripMenuItem});
             resources.ApplyResources(this.menuMain, "menuMain");
             this.menuMain.Name = "menuMain";
             // 
@@ -443,6 +447,25 @@ namespace MaNGOS_GUI
             this.menuGMList.Name = "menuGMList";
             resources.ApplyResources(this.menuGMList, "menuGMList");
             this.menuGMList.Click += new System.EventHandler(this.menuGMList_Click);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem,
+            this.aboutToolStripMenuItem1});
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
+            // 
+            // aboutToolStripMenuItem1
+            // 
+            this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
+            resources.ApplyResources(this.aboutToolStripMenuItem1, "aboutToolStripMenuItem1");
+            this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
             // 
             // performanceCounter1
             // 
@@ -1147,6 +1170,9 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ComboBox comboAccountActions;
         private DevExpress.XtraTab.XtraTabPage tbpRealmOutput;
         private System.Windows.Forms.RichTextBox rtbRealmText;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
     }
 }
 
