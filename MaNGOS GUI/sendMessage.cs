@@ -28,7 +28,7 @@ namespace MaNGOS_GUI
 
                     if (sData.checkCharacterExists(textCharacterName.Text))
                     {
-                        string commandString = "send " + textCharacterName.Text + " " + textMessage.Text;
+                        string commandString = "send message " + textCharacterName.Text + " " + textMessage.Text;
                         ManguiMain.mangosProcess.StandardInput.WriteLine(commandString);
 
                         ConfigAccess.updateLog(commandString);
