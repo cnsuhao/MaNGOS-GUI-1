@@ -61,7 +61,7 @@ namespace MaNGOS_GUI.other {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на 9.
+        ///   Ищет локализованную строку, похожую на 10.
         /// </summary>
         internal static string revision {
             get {

@@ -1274,20 +1274,49 @@ namespace MaNGOS_GUI
 
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form showAboutBox1 = new AboutBox1();
-            showAboutBox1.Show();
+                    Form showAboutBox1 = new AboutBox1();
+                    showAboutBox1.Show();
+
         }
 
         private void giveMoneyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showgiveMoney = new giveMoney();
-            showgiveMoney.Show();
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    Form showgiveMoney = new giveMoney();
+                    showgiveMoney.Show();
+                    }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
         }
 
         private void sendMailToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showsendMail = new sendMail();
-            showsendMail.Show();
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    Form showsendMail = new sendMail();
+                    showsendMail.Show();
+                    }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
         }
 
     }
