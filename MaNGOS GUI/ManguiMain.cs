@@ -1278,5 +1278,11 @@ namespace MaNGOS_GUI
             showAboutBox1.Show();
         }
 
+        private void giveMoneyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form showgiveMoney = new giveMoney();
+            showgiveMoney.Show();
+        }
+
     }
 }

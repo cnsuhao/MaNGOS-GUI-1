@@ -69,6 +69,7 @@ namespace MaNGOS_GUI
             this.menuWritePlayerDump = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLoadPlayerDump = new System.Windows.Forms.ToolStripMenuItem();
             this.menuTeleport = new System.Windows.Forms.ToolStripMenuItem();
+            this.giveMoneyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLists = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBanList = new System.Windows.Forms.ToolStripMenuItem();
             this.menuGMList = new System.Windows.Forms.ToolStripMenuItem();
@@ -388,7 +389,8 @@ namespace MaNGOS_GUI
             this.menuSendMessage,
             this.menuWritePlayerDump,
             this.menuLoadPlayerDump,
-            this.menuTeleport});
+            this.menuTeleport,
+            this.giveMoneyToolStripMenuItem});
             this.menuCharacterOptions.Name = "menuCharacterOptions";
             resources.ApplyResources(this.menuCharacterOptions, "menuCharacterOptions");
             // 
@@ -427,6 +429,12 @@ namespace MaNGOS_GUI
             this.menuTeleport.Name = "menuTeleport";
             resources.ApplyResources(this.menuTeleport, "menuTeleport");
             this.menuTeleport.Click += new System.EventHandler(this.menuTeleport_Click);
+            // 
+            // giveMoneyToolStripMenuItem
+            // 
+            this.giveMoneyToolStripMenuItem.Name = "giveMoneyToolStripMenuItem";
+            resources.ApplyResources(this.giveMoneyToolStripMenuItem, "giveMoneyToolStripMenuItem");
+            this.giveMoneyToolStripMenuItem.Click += new System.EventHandler(this.giveMoneyToolStripMenuItem_Click);
             // 
             // menuLists
             // 
@@ -1173,6 +1181,7 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem giveMoneyToolStripMenuItem;
     }
 }
 

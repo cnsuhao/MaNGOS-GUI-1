@@ -10,7 +10,7 @@ namespace MaNGOS_GUI
 {
     partial class AboutBox1 : Form
     {
-        private string revision = "6";
+        private string revision = "7";
 
         public AboutBox1()
         {
