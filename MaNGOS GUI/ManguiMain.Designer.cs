@@ -146,6 +146,7 @@ namespace MaNGOS_GUI
             this.btnRefresh = new System.Windows.Forms.Button();
             this.dataOnlineInfo = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
+            this.sendMailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -390,7 +391,8 @@ namespace MaNGOS_GUI
             this.menuWritePlayerDump,
             this.menuLoadPlayerDump,
             this.menuTeleport,
-            this.giveMoneyToolStripMenuItem});
+            this.giveMoneyToolStripMenuItem,
+            this.sendMailToolStripMenuItem});
             this.menuCharacterOptions.Name = "menuCharacterOptions";
             resources.ApplyResources(this.menuCharacterOptions, "menuCharacterOptions");
             // 
@@ -1022,6 +1024,12 @@ namespace MaNGOS_GUI
             this.consoleTimer.Interval = 1000;
             this.consoleTimer.Tick += new System.EventHandler(this.consoleTimer_Tick);
             // 
+            // sendMailToolStripMenuItem
+            // 
+            this.sendMailToolStripMenuItem.Name = "sendMailToolStripMenuItem";
+            resources.ApplyResources(this.sendMailToolStripMenuItem, "sendMailToolStripMenuItem");
+            this.sendMailToolStripMenuItem.Click += new System.EventHandler(this.sendMailToolStripMenuItem_Click);
+            // 
             // ManguiMain
             // 
             resources.ApplyResources(this, "$this");
@@ -1182,6 +1190,7 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem giveMoneyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sendMailToolStripMenuItem;
     }
 }
 

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MaNGOS_GUI.Properties {
+namespace MaNGOS_GUI.other {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace MaNGOS_GUI.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "2.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    internal class getrevision {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal getrevision() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace MaNGOS_GUI.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MaNGOS_GUI.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MaNGOS_GUI.other.getrevision", typeof(getrevision).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -60,38 +60,12 @@ namespace MaNGOS_GUI.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap blackGBMouseOver {
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 9.
+        /// </summary>
+        internal static string revision {
             get {
-                object obj = ResourceManager.GetObject("blackGBMouseOver", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap blackGelButton {
-            get {
-                object obj = ResourceManager.GetObject("blackGelButton", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap blacktemple_800x {
-            get {
-                object obj = ResourceManager.GetObject("blacktemple_800x", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap MaNGOSGui {
-            get {
-                object obj = ResourceManager.GetObject("MaNGOSGui", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap SearchInFolder {
-            get {
-                object obj = ResourceManager.GetObject("SearchInFolder", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("revision", resourceCulture);
             }
         }
     }

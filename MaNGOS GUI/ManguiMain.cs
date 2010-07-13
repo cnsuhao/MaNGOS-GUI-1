@@ -1284,5 +1284,11 @@ namespace MaNGOS_GUI
             showgiveMoney.Show();
         }
 
+        private void sendMailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form showsendMail = new sendMail();
+            showsendMail.Show();
+        }
+
     }
 }

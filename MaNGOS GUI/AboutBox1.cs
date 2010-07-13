@@ -10,14 +10,12 @@ namespace MaNGOS_GUI
 {
     partial class AboutBox1 : Form
     {
-        private string revision = "8";
-
         public AboutBox1()
         {
             InitializeComponent();
             this.Text = String.Format("About {0}", AssemblyTitle);
             this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = String.Format("Ver. 1.0.0, Revision {0}", revision);
+            this.labelVersion.Text = String.Format("Ver. 1.0.0, Rev.{0}", (other.getrevision.revision));
             this.labelCopyright.Text = String.Format("Authors: JD Guzman(2008), FrenchW(2008), JustZombe(2010)");
         }
 

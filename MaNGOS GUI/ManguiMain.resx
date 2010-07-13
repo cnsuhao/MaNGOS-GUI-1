@@ -120,148 +120,16 @@
   <metadata name="menuMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>313, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="menuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="menuEditConfig.Text" xml:space="preserve">
-    <value>Edit Config</value>
-  </data>
-  <data name="menuFileLanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
-  </data>
-  <data name="menuFileLanguageEnglish.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="menuFileLanguageFrench.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
-  </data>
-  <data name="menuFileLanguageFrench.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="menuFileLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="menuFileLanguage.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 6</value>
-  </data>
-  <data name="menuExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="menuExit.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuFile.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+F</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="menuFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 20</value>
   </data>
   <data name="menuFile.Text" xml:space="preserve">
     <value>&amp;File</value>
-  </data>
-  <data name="menuStartServers.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+S</value>
-  </data>
-  <data name="menuStartServers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
-  </data>
-  <data name="menuStartServers.Text" xml:space="preserve">
-    <value>Start &amp;Servers</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 6</value>
-  </data>
-  <data name="menuMangosStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
-  </data>
-  <data name="menuMangosStart.Text" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="menuMangosStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
-  </data>
-  <data name="menuMangosStop.Text" xml:space="preserve">
-    <value>Stop</value>
-  </data>
-  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 6</value>
-  </data>
-  <data name="menuMangosRestart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
-  </data>
-  <data name="menuMangosRestart.Text" xml:space="preserve">
-    <value>Auto Restart</value>
-  </data>
-  <data name="menuMangosServer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
-  </data>
-  <data name="menuMangosServer.Text" xml:space="preserve">
-    <value>Mangos</value>
-  </data>
-  <data name="menuRealmStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
-  </data>
-  <data name="menuRealmStart.Text" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="menuRealmStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
-  </data>
-  <data name="menuRealmStop.Text" xml:space="preserve">
-    <value>Stop</value>
-  </data>
-  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 6</value>
-  </data>
-  <data name="menuRealmRestart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
-  </data>
-  <data name="menuRealmRestart.Text" xml:space="preserve">
-    <value>Auto Restart</value>
-  </data>
-  <data name="menuRealmServer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
-  </data>
-  <data name="menuRealmServer.Text" xml:space="preserve">
-    <value>Realm</value>
-  </data>
-  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 6</value>
-  </data>
-  <data name="menuMinimumLogLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="menuMinimumLogLevel.Text" xml:space="preserve">
-    <value>Minimum</value>
-  </data>
-  <data name="menuBasicErrorLogLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="menuBasicErrorLogLevel.Text" xml:space="preserve">
-    <value>Basic and Error</value>
-  </data>
-  <data name="menuDetailLogLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="menuDetailLogLevel.Text" xml:space="preserve">
-    <value>Detail</value>
-  </data>
-  <data name="menuFullDebugLogLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="menuFullDebugLogLevel.Text" xml:space="preserve">
-    <value>Full/Debug</value>
-  </data>
-  <data name="menuLogLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
-  </data>
-  <data name="menuLogLevel.Text" xml:space="preserve">
-    <value>Log Level</value>
   </data>
   <data name="menuServerOptions.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+S</value>
@@ -271,30 +139,6 @@
   </data>
   <data name="menuServerOptions.Text" xml:space="preserve">
     <value>&amp;Server Options</value>
-  </data>
-  <data name="menuSetBC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
-  </data>
-  <data name="menuSetBC.Text" xml:space="preserve">
-    <value>Set Expansion</value>
-  </data>
-  <data name="menuSetGM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
-  </data>
-  <data name="menuSetGM.Text" xml:space="preserve">
-    <value>Set GM</value>
-  </data>
-  <data name="menuSetPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
-  </data>
-  <data name="menuSetPassword.Text" xml:space="preserve">
-    <value>Set Password</value>
-  </data>
-  <data name="menuDeleteAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
-  </data>
-  <data name="menuDeleteAccount.Text" xml:space="preserve">
-    <value>Delete Account</value>
   </data>
   <data name="menuAccountOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 20</value>
@@ -344,41 +188,23 @@
   <data name="giveMoneyToolStripMenuItem.Text" xml:space="preserve">
     <value>Give Money</value>
   </data>
+  <data name="sendMailToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="sendMailToolStripMenuItem.Text" xml:space="preserve">
+    <value>Send Mail</value>
+  </data>
   <data name="menuCharacterOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 20</value>
   </data>
   <data name="menuCharacterOptions.Text" xml:space="preserve">
     <value>Character Options</value>
   </data>
-  <data name="menuBanList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 22</value>
-  </data>
-  <data name="menuBanList.Text" xml:space="preserve">
-    <value>Ban List</value>
-  </data>
-  <data name="menuGMList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 22</value>
-  </data>
-  <data name="menuGMList.Text" xml:space="preserve">
-    <value>GM List</value>
-  </data>
   <data name="menuLists.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 20</value>
   </data>
   <data name="menuLists.Text" xml:space="preserve">
     <value>Lists</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 22</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="aboutToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 22</value>
-  </data>
-  <data name="aboutToolStripMenuItem1.Text" xml:space="preserve">
-    <value>About</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 20</value>
@@ -410,6 +236,186 @@
   </data>
   <data name="&gt;&gt;menuMain.ZOrder" xml:space="preserve">
     <value>15</value>
+  </data>
+  <data name="menuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="menuEditConfig.Text" xml:space="preserve">
+    <value>Edit Config</value>
+  </data>
+  <data name="menuFileLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="menuFileLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="menuFileLanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="menuFileLanguageEnglish.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="menuFileLanguageFrench.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="menuFileLanguageFrench.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 6</value>
+  </data>
+  <data name="menuExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="menuExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="menuStartServers.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="menuStartServers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="menuStartServers.Text" xml:space="preserve">
+    <value>Start &amp;Servers</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="menuMangosServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="menuMangosServer.Text" xml:space="preserve">
+    <value>Mangos</value>
+  </data>
+  <data name="menuMangosStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="menuMangosStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="menuMangosStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="menuMangosStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 6</value>
+  </data>
+  <data name="menuMangosRestart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="menuMangosRestart.Text" xml:space="preserve">
+    <value>Auto Restart</value>
+  </data>
+  <data name="menuRealmServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="menuRealmServer.Text" xml:space="preserve">
+    <value>Realm</value>
+  </data>
+  <data name="menuRealmStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="menuRealmStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="menuRealmStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="menuRealmStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 6</value>
+  </data>
+  <data name="menuRealmRestart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="menuRealmRestart.Text" xml:space="preserve">
+    <value>Auto Restart</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="menuLogLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="menuLogLevel.Text" xml:space="preserve">
+    <value>Log Level</value>
+  </data>
+  <data name="menuMinimumLogLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="menuMinimumLogLevel.Text" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="menuBasicErrorLogLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="menuBasicErrorLogLevel.Text" xml:space="preserve">
+    <value>Basic and Error</value>
+  </data>
+  <data name="menuDetailLogLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="menuDetailLogLevel.Text" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="menuFullDebugLogLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="menuFullDebugLogLevel.Text" xml:space="preserve">
+    <value>Full/Debug</value>
+  </data>
+  <data name="menuSetBC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="menuSetBC.Text" xml:space="preserve">
+    <value>Set Expansion</value>
+  </data>
+  <data name="menuSetGM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="menuSetGM.Text" xml:space="preserve">
+    <value>Set GM</value>
+  </data>
+  <data name="menuSetPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="menuSetPassword.Text" xml:space="preserve">
+    <value>Set Password</value>
+  </data>
+  <data name="menuDeleteAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="menuDeleteAccount.Text" xml:space="preserve">
+    <value>Delete Account</value>
+  </data>
+  <data name="menuBanList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="menuBanList.Text" xml:space="preserve">
+    <value>Ban List</value>
+  </data>
+  <data name="menuGMList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="menuGMList.Text" xml:space="preserve">
+    <value>GM List</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="aboutToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem1.Text" xml:space="preserve">
+    <value>About</value>
   </data>
   <metadata name="performanceCounter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
@@ -558,6 +564,30 @@
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>415, 56</value>
   </metadata>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 432</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 22</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <data name="toolStripLabelCPU.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -584,30 +614,6 @@
   </data>
   <data name="toolStripLabelOnline.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
-  </data>
-  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 432</value>
-  </data>
-  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>600, 22</value>
-  </data>
-  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="statusStrip.Text" xml:space="preserve">
-    <value>statusStrip1</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
-    <value>statusStrip</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>9</value>
   </data>
   <data name="buttonBroadcast.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -813,222 +819,6 @@
   <metadata name="trayMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>610, 17</value>
   </metadata>
-  <data name="trayMenuBroadcast.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuBroadcast.Text" xml:space="preserve">
-    <value>Broadcast</value>
-  </data>
-  <data name="trayMenuSetMOTD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuSetMOTD.Text" xml:space="preserve">
-    <value>Set MOTD</value>
-  </data>
-  <data name="trayMenuBans.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuBans.Text" xml:space="preserve">
-    <value>Bans</value>
-  </data>
-  <data name="trayMenuLoadScripts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuLoadScripts.Text" xml:space="preserve">
-    <value>Load Scripts</value>
-  </data>
-  <data name="trayMenuShutdown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuShutdown.Text" xml:space="preserve">
-    <value>Shutdown</value>
-  </data>
-  <data name="trayMenuPlayerLimit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuPlayerLimit.Text" xml:space="preserve">
-    <value>Player Limit</value>
-  </data>
-  <data name="trayMenuAddCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuAddCommands.Text" xml:space="preserve">
-    <value>Additional Commands</value>
-  </data>
-  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
-  </data>
-  <data name="trayMenuDeleteCharacter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuDeleteCharacter.Text" xml:space="preserve">
-    <value>Delete Character</value>
-  </data>
-  <data name="trayMenuKickCharacter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuKickCharacter.Text" xml:space="preserve">
-    <value>Kick Character</value>
-  </data>
-  <data name="trayMenuSendMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuSendMessage.Text" xml:space="preserve">
-    <value>Send Message</value>
-  </data>
-  <data name="trayMenuWritePlayerDump.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuWritePlayerDump.Text" xml:space="preserve">
-    <value>Write Player Dump</value>
-  </data>
-  <data name="trayMenuLoadPlayerDump.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuLoadPlayerDump.Text" xml:space="preserve">
-    <value>Load Player Dump</value>
-  </data>
-  <data name="trayMenuTeleport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuTeleport.Text" xml:space="preserve">
-    <value>Teleport</value>
-  </data>
-  <data name="characterOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="characterOptionsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Character Options</value>
-  </data>
-  <data name="trayMenuCreateAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuCreateAccount.Text" xml:space="preserve">
-    <value>Create Account</value>
-  </data>
-  <data name="trayMenuDeleteAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuDeleteAccount.Text" xml:space="preserve">
-    <value>Delete Account</value>
-  </data>
-  <data name="trayMenuSetPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuSetPassword.Text" xml:space="preserve">
-    <value>Set Password</value>
-  </data>
-  <data name="trayMenuSetBC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuSetBC.Text" xml:space="preserve">
-    <value>Set BC</value>
-  </data>
-  <data name="trayMenuSetGM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuSetGM.Text" xml:space="preserve">
-    <value>Set GM</value>
-  </data>
-  <data name="trayMenuAccountOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuAccountOptions.Text" xml:space="preserve">
-    <value>Account Options</value>
-  </data>
-  <data name="trayMenuStartServers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuStartServers.Text" xml:space="preserve">
-    <value>Start Servers</value>
-  </data>
-  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 6</value>
-  </data>
-  <data name="trayMenuStartMangos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="trayMenuStartMangos.Text" xml:space="preserve">
-    <value>Start Mangos</value>
-  </data>
-  <data name="trayMenuStopMangos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="trayMenuStopMangos.Text" xml:space="preserve">
-    <value>Stop Mangos</value>
-  </data>
-  <data name="trayMenuMangos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuMangos.Text" xml:space="preserve">
-    <value>Mangos</value>
-  </data>
-  <data name="trayMenuStartRealm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="trayMenuStartRealm.Text" xml:space="preserve">
-    <value>Start Realm</value>
-  </data>
-  <data name="trayMenuStopRealm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="trayMenuStopRealm.Text" xml:space="preserve">
-    <value>Stop Realm</value>
-  </data>
-  <data name="trayMenuRealm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuRealm.Text" xml:space="preserve">
-    <value>Realm</value>
-  </data>
-  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 6</value>
-  </data>
-  <data name="trayMenuSaveAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuSaveAll.Text" xml:space="preserve">
-    <value>Save All</value>
-  </data>
-  <data name="trayMenuServerOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuServerOptions.Text" xml:space="preserve">
-    <value>Server Options</value>
-  </data>
-  <data name="trayMenuBansList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="trayMenuBansList.Text" xml:space="preserve">
-    <value>Bans List</value>
-  </data>
-  <data name="trayMenuGMList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="trayMenuGMList.Text" xml:space="preserve">
-    <value>GM List</value>
-  </data>
-  <data name="trayMenuLists.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuLists.Text" xml:space="preserve">
-    <value>Lists</value>
-  </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
-  </data>
-  <data name="trayMenuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuEditConfig.Text" xml:space="preserve">
-    <value>Edit Config</value>
-  </data>
-  <data name="trayMenuClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuClose.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
   <data name="trayMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 170</value>
   </data>
@@ -2485,6 +2275,222 @@
   <data name="trayIcon.Text" xml:space="preserve">
     <value>MaNGOS GUI</value>
   </data>
+  <data name="trayMenuAddCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuAddCommands.Text" xml:space="preserve">
+    <value>Additional Commands</value>
+  </data>
+  <data name="trayMenuBroadcast.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuBroadcast.Text" xml:space="preserve">
+    <value>Broadcast</value>
+  </data>
+  <data name="trayMenuSetMOTD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuSetMOTD.Text" xml:space="preserve">
+    <value>Set MOTD</value>
+  </data>
+  <data name="trayMenuBans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuBans.Text" xml:space="preserve">
+    <value>Bans</value>
+  </data>
+  <data name="trayMenuLoadScripts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuLoadScripts.Text" xml:space="preserve">
+    <value>Load Scripts</value>
+  </data>
+  <data name="trayMenuShutdown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuShutdown.Text" xml:space="preserve">
+    <value>Shutdown</value>
+  </data>
+  <data name="trayMenuPlayerLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuPlayerLimit.Text" xml:space="preserve">
+    <value>Player Limit</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
+  </data>
+  <data name="characterOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="characterOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Character Options</value>
+  </data>
+  <data name="trayMenuDeleteCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuDeleteCharacter.Text" xml:space="preserve">
+    <value>Delete Character</value>
+  </data>
+  <data name="trayMenuKickCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuKickCharacter.Text" xml:space="preserve">
+    <value>Kick Character</value>
+  </data>
+  <data name="trayMenuSendMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuSendMessage.Text" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="trayMenuWritePlayerDump.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuWritePlayerDump.Text" xml:space="preserve">
+    <value>Write Player Dump</value>
+  </data>
+  <data name="trayMenuLoadPlayerDump.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuLoadPlayerDump.Text" xml:space="preserve">
+    <value>Load Player Dump</value>
+  </data>
+  <data name="trayMenuTeleport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuTeleport.Text" xml:space="preserve">
+    <value>Teleport</value>
+  </data>
+  <data name="trayMenuAccountOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuAccountOptions.Text" xml:space="preserve">
+    <value>Account Options</value>
+  </data>
+  <data name="trayMenuCreateAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuCreateAccount.Text" xml:space="preserve">
+    <value>Create Account</value>
+  </data>
+  <data name="trayMenuDeleteAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuDeleteAccount.Text" xml:space="preserve">
+    <value>Delete Account</value>
+  </data>
+  <data name="trayMenuSetPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuSetPassword.Text" xml:space="preserve">
+    <value>Set Password</value>
+  </data>
+  <data name="trayMenuSetBC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuSetBC.Text" xml:space="preserve">
+    <value>Set BC</value>
+  </data>
+  <data name="trayMenuSetGM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuSetGM.Text" xml:space="preserve">
+    <value>Set GM</value>
+  </data>
+  <data name="trayMenuServerOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuServerOptions.Text" xml:space="preserve">
+    <value>Server Options</value>
+  </data>
+  <data name="trayMenuStartServers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuStartServers.Text" xml:space="preserve">
+    <value>Start Servers</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 6</value>
+  </data>
+  <data name="trayMenuMangos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuMangos.Text" xml:space="preserve">
+    <value>Mangos</value>
+  </data>
+  <data name="trayMenuStartMangos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="trayMenuStartMangos.Text" xml:space="preserve">
+    <value>Start Mangos</value>
+  </data>
+  <data name="trayMenuStopMangos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="trayMenuStopMangos.Text" xml:space="preserve">
+    <value>Stop Mangos</value>
+  </data>
+  <data name="trayMenuRealm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuRealm.Text" xml:space="preserve">
+    <value>Realm</value>
+  </data>
+  <data name="trayMenuStartRealm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="trayMenuStartRealm.Text" xml:space="preserve">
+    <value>Start Realm</value>
+  </data>
+  <data name="trayMenuStopRealm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="trayMenuStopRealm.Text" xml:space="preserve">
+    <value>Stop Realm</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 6</value>
+  </data>
+  <data name="trayMenuSaveAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuSaveAll.Text" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="trayMenuLists.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuLists.Text" xml:space="preserve">
+    <value>Lists</value>
+  </data>
+  <data name="trayMenuBansList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="trayMenuBansList.Text" xml:space="preserve">
+    <value>Bans List</value>
+  </data>
+  <data name="trayMenuGMList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="trayMenuGMList.Text" xml:space="preserve">
+    <value>GM List</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
+  </data>
+  <data name="trayMenuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuEditConfig.Text" xml:space="preserve">
+    <value>Edit Config</value>
+  </data>
+  <data name="trayMenuClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
   <data name="buttonSaveAll.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -2548,24 +2554,6 @@
   <data name="tbcMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 30</value>
   </data>
-  <data name="rtbConsoleText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="rtbConsoleText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 8.25pt</value>
-  </data>
-  <data name="rtbConsoleText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="rtbConsoleText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>377, 339</value>
-  </data>
-  <data name="rtbConsoleText.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="rtbConsoleText.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;rtbConsoleText.Name" xml:space="preserve">
     <value>rtbConsoleText</value>
   </data>
@@ -2605,24 +2593,6 @@
   <data name="tbcMain.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="rtbRealmText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="rtbRealmText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 8.25pt</value>
-  </data>
-  <data name="rtbRealmText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="rtbRealmText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>377, 339</value>
-  </data>
-  <data name="rtbRealmText.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="rtbRealmText.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;rtbRealmText.Name" xml:space="preserve">
     <value>rtbRealmText</value>
   </data>
@@ -2655,6 +2625,183 @@
   </data>
   <data name="&gt;&gt;tbpRealmOutput.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupAccountActions.Name" xml:space="preserve">
+    <value>groupAccountActions</value>
+  </data>
+  <data name="&gt;&gt;groupAccountActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupAccountActions.Parent" xml:space="preserve">
+    <value>tbpInfo</value>
+  </data>
+  <data name="&gt;&gt;groupAccountActions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Parent" xml:space="preserve">
+    <value>tbpInfo</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataOnlineInfo.Name" xml:space="preserve">
+    <value>dataOnlineInfo</value>
+  </data>
+  <data name="&gt;&gt;dataOnlineInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataOnlineInfo.Parent" xml:space="preserve">
+    <value>tbpInfo</value>
+  </data>
+  <data name="&gt;&gt;dataOnlineInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbpInfo.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbpInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 339</value>
+  </data>
+  <data name="tbpInfo.Text" xml:space="preserve">
+    <value>Online Account Info</value>
+  </data>
+  <data name="&gt;&gt;tbpInfo.Name" xml:space="preserve">
+    <value>tbpInfo</value>
+  </data>
+  <data name="&gt;&gt;tbpInfo.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.2, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tbpInfo.Parent" xml:space="preserve">
+    <value>tbcMain</value>
+  </data>
+  <data name="&gt;&gt;tbpInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbcMain.Name" xml:space="preserve">
+    <value>tbcMain</value>
+  </data>
+  <data name="&gt;&gt;tbcMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.2, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tbcMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbcMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rtbConsoleText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtbConsoleText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="rtbConsoleText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtbConsoleText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 339</value>
+  </data>
+  <data name="rtbConsoleText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbConsoleText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rtbConsoleText.Name" xml:space="preserve">
+    <value>rtbConsoleText</value>
+  </data>
+  <data name="&gt;&gt;rtbConsoleText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbConsoleText.Parent" xml:space="preserve">
+    <value>tbpMangosOutput</value>
+  </data>
+  <data name="&gt;&gt;rtbConsoleText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rtbRealmText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtbRealmText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="rtbRealmText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtbRealmText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 339</value>
+  </data>
+  <data name="rtbRealmText.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rtbRealmText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rtbRealmText.Name" xml:space="preserve">
+    <value>rtbRealmText</value>
+  </data>
+  <data name="&gt;&gt;rtbRealmText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbRealmText.Parent" xml:space="preserve">
+    <value>tbpRealmOutput</value>
+  </data>
+  <data name="&gt;&gt;rtbRealmText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Name" xml:space="preserve">
+    <value>btnGo</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Parent" xml:space="preserve">
+    <value>groupAccountActions</value>
+  </data>
+  <data name="&gt;&gt;btnGo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboAccountActions.Name" xml:space="preserve">
+    <value>comboAccountActions</value>
+  </data>
+  <data name="&gt;&gt;comboAccountActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboAccountActions.Parent" xml:space="preserve">
+    <value>groupAccountActions</value>
+  </data>
+  <data name="&gt;&gt;comboAccountActions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupAccountActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 290</value>
+  </data>
+  <data name="groupAccountActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 46</value>
+  </data>
+  <data name="groupAccountActions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupAccountActions.Text" xml:space="preserve">
+    <value>Account Actions</value>
+  </data>
+  <data name="&gt;&gt;groupAccountActions.Name" xml:space="preserve">
+    <value>groupAccountActions</value>
+  </data>
+  <data name="&gt;&gt;groupAccountActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupAccountActions.Parent" xml:space="preserve">
+    <value>tbpInfo</value>
+  </data>
+  <data name="&gt;&gt;groupAccountActions.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnGo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2740,30 +2887,6 @@
   <data name="&gt;&gt;comboAccountActions.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="groupAccountActions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 290</value>
-  </data>
-  <data name="groupAccountActions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 46</value>
-  </data>
-  <data name="groupAccountActions.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="groupAccountActions.Text" xml:space="preserve">
-    <value>Account Actions</value>
-  </data>
-  <data name="&gt;&gt;groupAccountActions.Name" xml:space="preserve">
-    <value>groupAccountActions</value>
-  </data>
-  <data name="&gt;&gt;groupAccountActions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupAccountActions.Parent" xml:space="preserve">
-    <value>tbpInfo</value>
-  </data>
-  <data name="&gt;&gt;groupAccountActions.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
     <value>299, 303</value>
   </data>
@@ -2811,39 +2934,6 @@
   </data>
   <data name="&gt;&gt;dataOnlineInfo.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="tbpInfo.Enabled" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tbpInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>377, 339</value>
-  </data>
-  <data name="tbpInfo.Text" xml:space="preserve">
-    <value>Online Account Info</value>
-  </data>
-  <data name="&gt;&gt;tbpInfo.Name" xml:space="preserve">
-    <value>tbpInfo</value>
-  </data>
-  <data name="&gt;&gt;tbpInfo.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.2, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;tbpInfo.Parent" xml:space="preserve">
-    <value>tbcMain</value>
-  </data>
-  <data name="&gt;&gt;tbpInfo.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tbcMain.Name" xml:space="preserve">
-    <value>tbcMain</value>
-  </data>
-  <data name="&gt;&gt;tbcMain.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.2, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;tbcMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tbcMain.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <metadata name="consoleTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>291, 56</value>
@@ -4852,6 +4942,12 @@
   </data>
   <data name="&gt;&gt;consoleTimer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sendMailToolStripMenuItem.Name" xml:space="preserve">
+    <value>sendMailToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;sendMailToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ManguiMain</value>

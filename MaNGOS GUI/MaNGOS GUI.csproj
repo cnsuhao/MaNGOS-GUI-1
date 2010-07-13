@@ -189,6 +189,11 @@
     <Compile Include="ManguiMain.Designer.cs">
       <DependentUpon>ManguiMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="other\getrevision.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>getrevision.resx</DependentUpon>
+    </Compile>
     <Compile Include="playerLimit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -289,6 +294,11 @@
       <SubType>Designer</SubType>
       <DependentUpon>ManguiMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="other\getrevision.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>getrevision.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="playerLimit.es.resx">
       <DependentUpon>playerLimit.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -315,6 +325,10 @@
     <EmbeddedResource Include="Resources\hcStringResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>hcStringResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sendMail.resx">
+      <DependentUpon>sendMail.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="sendMessage.es.resx">
@@ -445,6 +459,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>hcStringResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="sendMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sendMail.Designer.cs">
+      <DependentUpon>sendMail.cs</DependentUpon>
     </Compile>
     <Compile Include="sendMessage.cs">
       <SubType>Form</SubType>

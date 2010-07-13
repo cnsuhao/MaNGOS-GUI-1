@@ -161,7 +161,6 @@
     <value>Please choose Activate/Deactivate BC.</value>
     <comment>R.26</comment>
   </data>
-
   <data name="setBC_EnterAccount" xml:space="preserve">
     <value>Please enter an account to modify.</value>
     <comment>R.26</comment>
