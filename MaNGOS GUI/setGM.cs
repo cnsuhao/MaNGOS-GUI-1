@@ -21,15 +21,15 @@ namespace MaNGOS_GUI
         {
             try
             {
-                if (!String.IsNullOrEmpty(accountComboBox1.Text ))
+                if (!String.IsNullOrEmpty(comboAccount.Text ))
                 {
                     if (!String.IsNullOrEmpty(comboGMLevel.Text))
                     {
                         ServerData sData = new ServerData();
 
-                        if (sData.checkAccountExists(accountComboBox1.Text))
+                        if (sData.checkAccountExists(comboAccount.Text))
                         {
-                            string commandString = "setgm " + accountComboBox1.Text + " " + comboGMLevel.Text;
+                            string commandString = "account set gmlevel " + comboAccount.Text + " " + comboGMLevel.Text;
                             ManguiMain.mangosProcess.StandardInput.WriteLine(commandString);
 
                             ConfigAccess.updateLog(commandString);

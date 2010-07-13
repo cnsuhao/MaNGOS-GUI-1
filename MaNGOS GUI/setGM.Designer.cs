@@ -33,31 +33,23 @@
             this.buttonUpdate = new System.Windows.Forms.Button();
             this.labelGMLevel = new System.Windows.Forms.Label();
             this.labelAccountName = new System.Windows.Forms.Label();
-            this.accountComboBox1 = new MaNGOS_GUI.Controls.AccountComboBox();
+            this.comboAccount = new MaNGOS_GUI.Controls.AccountComboBox();
             this.SuspendLayout();
             // 
             // comboGMLevel
             // 
-            this.comboGMLevel.AccessibleDescription = null;
-            this.comboGMLevel.AccessibleName = null;
-            resources.ApplyResources(this.comboGMLevel, "comboGMLevel");
-            this.comboGMLevel.BackgroundImage = null;
-            this.comboGMLevel.Font = null;
             this.comboGMLevel.FormattingEnabled = true;
             this.comboGMLevel.Items.AddRange(new object[] {
             resources.GetString("comboGMLevel.Items"),
             resources.GetString("comboGMLevel.Items1"),
             resources.GetString("comboGMLevel.Items2")});
+            resources.ApplyResources(this.comboGMLevel, "comboGMLevel");
             this.comboGMLevel.Name = "comboGMLevel";
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.AccessibleDescription = null;
-            this.buttonUpdate.AccessibleName = null;
-            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.BackColor = System.Drawing.SystemColors.ControlText;
-            this.buttonUpdate.BackgroundImage = null;
-            this.buttonUpdate.Font = null;
+            resources.ApplyResources(this.buttonUpdate, "buttonUpdate");
             this.buttonUpdate.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.UseVisualStyleBackColor = false;
@@ -65,46 +57,31 @@
             // 
             // labelGMLevel
             // 
-            this.labelGMLevel.AccessibleDescription = null;
-            this.labelGMLevel.AccessibleName = null;
             resources.ApplyResources(this.labelGMLevel, "labelGMLevel");
-            this.labelGMLevel.Font = null;
             this.labelGMLevel.Name = "labelGMLevel";
             // 
             // labelAccountName
             // 
-            this.labelAccountName.AccessibleDescription = null;
-            this.labelAccountName.AccessibleName = null;
             resources.ApplyResources(this.labelAccountName, "labelAccountName");
-            this.labelAccountName.Font = null;
             this.labelAccountName.Name = "labelAccountName";
             // 
-            // accountComboBox1
+            // comboAccount
             // 
-            this.accountComboBox1.AccessibleDescription = null;
-            this.accountComboBox1.AccessibleName = null;
-            resources.ApplyResources(this.accountComboBox1, "accountComboBox1");
-            this.accountComboBox1.BackgroundImage = null;
-            this.accountComboBox1.DataSource = ((object)(resources.GetObject("accountComboBox1.DataSource")));
-            this.accountComboBox1.Font = null;
-            this.accountComboBox1.FormattingEnabled = true;
-            this.accountComboBox1.Name = "accountComboBox1";
+            this.comboAccount.DataSource = ((object)(resources.GetObject("comboAccount.DataSource")));
+            this.comboAccount.FormattingEnabled = true;
+            resources.ApplyResources(this.comboAccount, "comboAccount");
+            this.comboAccount.Name = "comboAccount";
             // 
             // setGM
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = null;
-            this.Controls.Add(this.accountComboBox1);
+            this.Controls.Add(this.comboAccount);
             this.Controls.Add(this.comboGMLevel);
             this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.labelGMLevel);
             this.Controls.Add(this.labelAccountName);
-            this.Font = null;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = null;
             this.Name = "setGM";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -117,6 +94,6 @@
         private System.Windows.Forms.Button buttonUpdate;
         private System.Windows.Forms.Label labelGMLevel;
         private System.Windows.Forms.Label labelAccountName;
-        private MaNGOS_GUI.Controls.AccountComboBox accountComboBox1;
+        private MaNGOS_GUI.Controls.AccountComboBox comboAccount;
     }
 }

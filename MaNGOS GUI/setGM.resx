@@ -117,115 +117,121 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;labelGMLevel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelAccountName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 9</value>
-  </data>
-  <data name="labelAccountName.Text" xml:space="preserve">
-    <value>Account Name</value>
-  </data>
-  <data name="comboGMLevel.Items2" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;accountComboBox1.Name" xml:space="preserve">
-    <value>accountComboBox1</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelGMLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;comboGMLevel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;accountComboBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelGMLevel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="accountComboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 26</value>
-  </data>
-  <data name="labelGMLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 13</value>
-  </data>
-  <data name="labelAccountName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="buttonUpdate.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;accountComboBox1.Type" xml:space="preserve">
-    <value>MaNGOS_GUI.Controls.AccountComboBox, MaNGOS GUI, Version=0.5.3148.20096, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="labelAccountName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 13</value>
-  </data>
-  <data name="&gt;&gt;buttonUpdate.Name" xml:space="preserve">
-    <value>buttonUpdate</value>
-  </data>
-  <data name="buttonUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 112</value>
+  <data name="comboGMLevel.Items" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="comboGMLevel.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="labelGMLevel.Text" xml:space="preserve">
-    <value>Select GM Level</value>
+  <data name="comboGMLevel.Items2" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="comboGMLevel.Items" xml:space="preserve">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboGMLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 74</value>
+  </data>
+  <data name="comboGMLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="comboGMLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;comboGMLevel.Name" xml:space="preserve">
+    <value>comboGMLevel</value>
+  </data>
+  <data name="&gt;&gt;comboGMLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboGMLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboGMLevel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonUpdate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>System</value>
   </data>
-  <data name="&gt;&gt;labelAccountName.Name" xml:space="preserve">
-    <value>labelAccountName</value>
+  <data name="buttonUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 112</value>
   </data>
-  <data name="labelAccountName.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="buttonUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 30</value>
+  </data>
+  <data name="buttonUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="buttonUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Name" xml:space="preserve">
+    <value>buttonUpdate</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonUpdate.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="comboGMLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 74</value>
+  <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>188, 151</value>
+  <data name="labelGMLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelGMLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 58</value>
+  </data>
+  <data name="labelGMLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="labelGMLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelGMLevel.Text" xml:space="preserve">
+    <value>Select GM Level</value>
+  </data>
+  <data name="&gt;&gt;labelGMLevel.Name" xml:space="preserve">
+    <value>labelGMLevel</value>
   </data>
   <data name="&gt;&gt;labelGMLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboGMLevel.Name" xml:space="preserve">
-    <value>comboGMLevel</value>
+  <data name="&gt;&gt;labelGMLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelGMLevel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelAccountName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAccountName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 9</value>
+  </data>
+  <data name="labelAccountName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="labelAccountName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelAccountName.Text" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="&gt;&gt;labelAccountName.Name" xml:space="preserve">
+    <value>labelAccountName</value>
+  </data>
+  <data name="&gt;&gt;labelAccountName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelAccountName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="comboGMLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="&gt;&gt;labelAccountName.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="accountComboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;accountComboBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Set GM</value>
-  </data>
-  <data name="accountComboBox1.DataSource" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="comboAccount.DataSource" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAEAQAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5
         c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
@@ -233,50 +239,26 @@
         CAkCAAAAAAAAAAAAAAARAgAAAAAAAAAL
 </value>
   </data>
-  <data name="labelGMLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 58</value>
+  <data name="comboAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 26</value>
   </data>
-  <data name="comboGMLevel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="comboAccount.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 21</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="comboAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;labelAccountName.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;comboAccount.Name" xml:space="preserve">
+    <value>comboAccount</value>
   </data>
-  <data name="&gt;&gt;labelGMLevel.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;comboAccount.Type" xml:space="preserve">
+    <value>MaNGOS_GUI.Controls.AccountComboBox, MaNGOS GUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="buttonUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
+  <data name="&gt;&gt;comboAccount.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>setGM</value>
-  </data>
-  <data name="accountComboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 21</value>
-  </data>
-  <data name="&gt;&gt;comboGMLevel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelGMLevel.Name" xml:space="preserve">
-    <value>labelGMLevel</value>
-  </data>
-  <data name="&gt;&gt;comboGMLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonUpdate.Text" xml:space="preserve">
-    <value>Update</value>
-  </data>
-  <data name="&gt;&gt;labelAccountName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;comboAccount.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -284,4 +266,22 @@
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>188, 151</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Set GM</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>setGM</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
