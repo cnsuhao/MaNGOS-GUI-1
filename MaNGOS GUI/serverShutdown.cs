@@ -67,5 +67,24 @@ namespace MaNGOS_GUI
                 MessageBox.Show(Resources.hcStringResources.Global_CommandError);
             }
         }
+
+        private void buttonCancelShutdown_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                    string commandString = "server shutdown cancel";
+                    ManguiMain.mangosProcess.StandardInput.WriteLine(commandString);
+
+                    ConfigAccess.updateLog(commandString);
+
+                    MessageBox.Show(string.Format(Resources.hcStringResources.Global_CommandSuccesful, commandString));
+                    this.Close();
+            }
+            catch
+            {
+                MessageBox.Show(Resources.hcStringResources.Global_CommandError);
+            }
+
+        }
     }
 }

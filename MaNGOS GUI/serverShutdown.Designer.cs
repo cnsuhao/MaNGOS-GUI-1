@@ -33,61 +33,50 @@
             this.labelShutdownDelay = new System.Windows.Forms.Label();
             this.buttonIdleShutdown = new System.Windows.Forms.Button();
             this.buttonDelayedShutdown = new System.Windows.Forms.Button();
+            this.buttonCancelShutdown = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textShutdownDelay
             // 
-            this.textShutdownDelay.AccessibleDescription = null;
-            this.textShutdownDelay.AccessibleName = null;
             resources.ApplyResources(this.textShutdownDelay, "textShutdownDelay");
-            this.textShutdownDelay.BackgroundImage = null;
-            this.textShutdownDelay.Font = null;
             this.textShutdownDelay.Name = "textShutdownDelay";
             // 
             // labelShutdownDelay
             // 
-            this.labelShutdownDelay.AccessibleDescription = null;
-            this.labelShutdownDelay.AccessibleName = null;
             resources.ApplyResources(this.labelShutdownDelay, "labelShutdownDelay");
-            this.labelShutdownDelay.Font = null;
             this.labelShutdownDelay.Name = "labelShutdownDelay";
             // 
             // buttonIdleShutdown
             // 
-            this.buttonIdleShutdown.AccessibleDescription = null;
-            this.buttonIdleShutdown.AccessibleName = null;
             resources.ApplyResources(this.buttonIdleShutdown, "buttonIdleShutdown");
-            this.buttonIdleShutdown.BackgroundImage = null;
-            this.buttonIdleShutdown.Font = null;
             this.buttonIdleShutdown.Name = "buttonIdleShutdown";
             this.buttonIdleShutdown.UseVisualStyleBackColor = true;
             this.buttonIdleShutdown.Click += new System.EventHandler(this.buttonIdleShutdown_Click);
             // 
             // buttonDelayedShutdown
             // 
-            this.buttonDelayedShutdown.AccessibleDescription = null;
-            this.buttonDelayedShutdown.AccessibleName = null;
             resources.ApplyResources(this.buttonDelayedShutdown, "buttonDelayedShutdown");
-            this.buttonDelayedShutdown.BackgroundImage = null;
-            this.buttonDelayedShutdown.Font = null;
             this.buttonDelayedShutdown.Name = "buttonDelayedShutdown";
             this.buttonDelayedShutdown.UseVisualStyleBackColor = true;
             this.buttonDelayedShutdown.Click += new System.EventHandler(this.buttonDelayedShutdown_Click);
             // 
+            // buttonCancelShutdown
+            // 
+            resources.ApplyResources(this.buttonCancelShutdown, "buttonCancelShutdown");
+            this.buttonCancelShutdown.Name = "buttonCancelShutdown";
+            this.buttonCancelShutdown.UseVisualStyleBackColor = true;
+            this.buttonCancelShutdown.Click += new System.EventHandler(this.buttonCancelShutdown_Click);
+            // 
             // serverShutdown
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = null;
+            this.Controls.Add(this.buttonCancelShutdown);
             this.Controls.Add(this.buttonDelayedShutdown);
             this.Controls.Add(this.buttonIdleShutdown);
             this.Controls.Add(this.textShutdownDelay);
             this.Controls.Add(this.labelShutdownDelay);
-            this.Font = null;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = null;
             this.Name = "serverShutdown";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -100,5 +89,6 @@
         private System.Windows.Forms.Label labelShutdownDelay;
         private System.Windows.Forms.Button buttonIdleShutdown;
         private System.Windows.Forms.Button buttonDelayedShutdown;
+        private System.Windows.Forms.Button buttonCancelShutdown;
     }
 }

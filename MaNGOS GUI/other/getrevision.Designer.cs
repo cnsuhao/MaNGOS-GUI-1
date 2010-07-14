@@ -60,9 +60,6 @@ namespace MaNGOS_GUI.other {
             }
         }
         
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на 11.
-        /// </summary>
         internal static string revision {
             get {
                 return ResourceManager.GetString("revision", resourceCulture);
