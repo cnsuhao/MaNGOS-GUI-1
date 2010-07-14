@@ -24,7 +24,7 @@ namespace MaNGOS_GUI
             {
                 if (!String.IsNullOrEmpty(textShutdownDelay.Text))
                 {
-                    string commandString = "idleshutdown " + textShutdownDelay.Text;
+                    string commandString = "server idleshutdown " + textShutdownDelay.Text;
                     ManguiMain.mangosProcess.StandardInput.WriteLine(commandString);
 
                     ConfigAccess.updateLog(commandString);
@@ -49,7 +49,7 @@ namespace MaNGOS_GUI
             {
                 if (!String.IsNullOrEmpty(textShutdownDelay.Text))
                 {
-                    string commandString = "shutdown " + textShutdownDelay.Text;
+                    string commandString = "server shutdown " + textShutdownDelay.Text;
                     ManguiMain.mangosProcess.StandardInput.WriteLine(commandString);
 
                     ConfigAccess.updateLog(commandString);
