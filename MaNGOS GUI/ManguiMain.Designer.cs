@@ -70,6 +70,7 @@ namespace MaNGOS_GUI
             this.menuLoadPlayerDump = new System.Windows.Forms.ToolStripMenuItem();
             this.menuTeleport = new System.Windows.Forms.ToolStripMenuItem();
             this.giveMoneyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sendMailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLists = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBanList = new System.Windows.Forms.ToolStripMenuItem();
             this.menuGMList = new System.Windows.Forms.ToolStripMenuItem();
@@ -146,7 +147,7 @@ namespace MaNGOS_GUI
             this.btnRefresh = new System.Windows.Forms.Button();
             this.dataOnlineInfo = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
-            this.sendMailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.labelVersion = new System.Windows.Forms.Label();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -437,6 +438,12 @@ namespace MaNGOS_GUI
             this.giveMoneyToolStripMenuItem.Name = "giveMoneyToolStripMenuItem";
             resources.ApplyResources(this.giveMoneyToolStripMenuItem, "giveMoneyToolStripMenuItem");
             this.giveMoneyToolStripMenuItem.Click += new System.EventHandler(this.giveMoneyToolStripMenuItem_Click);
+            // 
+            // sendMailToolStripMenuItem
+            // 
+            this.sendMailToolStripMenuItem.Name = "sendMailToolStripMenuItem";
+            resources.ApplyResources(this.sendMailToolStripMenuItem, "sendMailToolStripMenuItem");
+            this.sendMailToolStripMenuItem.Click += new System.EventHandler(this.sendMailToolStripMenuItem_Click);
             // 
             // menuLists
             // 
@@ -1024,11 +1031,12 @@ namespace MaNGOS_GUI
             this.consoleTimer.Interval = 1000;
             this.consoleTimer.Tick += new System.EventHandler(this.consoleTimer_Tick);
             // 
-            // sendMailToolStripMenuItem
+            // labelVersion
             // 
-            this.sendMailToolStripMenuItem.Name = "sendMailToolStripMenuItem";
-            resources.ApplyResources(this.sendMailToolStripMenuItem, "sendMailToolStripMenuItem");
-            this.sendMailToolStripMenuItem.Click += new System.EventHandler(this.sendMailToolStripMenuItem_Click);
+            resources.ApplyResources(this.labelVersion, "labelVersion");
+            this.labelVersion.BackColor = System.Drawing.Color.Transparent;
+            this.labelVersion.ForeColor = System.Drawing.Color.GreenYellow;
+            this.labelVersion.Name = "labelVersion";
             // 
             // ManguiMain
             // 
@@ -1038,6 +1046,7 @@ namespace MaNGOS_GUI
             this.Controls.Add(this.tbcMain);
             this.Controls.Add(this.buttonSaveAll);
             this.Controls.Add(this.buttonPlayerLimit);
+            this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.buttonShutdown);
             this.Controls.Add(this.buttonLoadScripts);
             this.Controls.Add(this.buttonBans);
@@ -1191,6 +1200,7 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem giveMoneyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sendMailToolStripMenuItem;
+        private System.Windows.Forms.Label labelVersion;
     }
 }
 

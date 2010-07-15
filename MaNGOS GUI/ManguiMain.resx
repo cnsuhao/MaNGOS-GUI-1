@@ -118,13 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="menuMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>313, 17</value>
+    <value>405, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="menuEditConfig.Text" xml:space="preserve">
+    <value>Edit Config</value>
+  </data>
+  <data name="menuFileLanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="menuFileLanguageEnglish.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="menuFileLanguageFrench.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="menuFileLanguageFrench.Text" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="menuFileLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="menuFileLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 6</value>
+  </data>
+  <data name="menuExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="menuExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuFile.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+F</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="menuFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 20</value>
   </data>
@@ -145,54 +178,6 @@
   </data>
   <data name="menuAccountOptions.Text" xml:space="preserve">
     <value>Account Options</value>
-  </data>
-  <data name="menuDeleteCharacter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="menuDeleteCharacter.Text" xml:space="preserve">
-    <value>Delete Character</value>
-  </data>
-  <data name="menuKickCharacter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="menuKickCharacter.Text" xml:space="preserve">
-    <value>Kick Character</value>
-  </data>
-  <data name="menuSendMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="menuSendMessage.Text" xml:space="preserve">
-    <value>Send Message</value>
-  </data>
-  <data name="menuWritePlayerDump.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="menuWritePlayerDump.Text" xml:space="preserve">
-    <value>Write Player Dump</value>
-  </data>
-  <data name="menuLoadPlayerDump.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="menuLoadPlayerDump.Text" xml:space="preserve">
-    <value>Load Player Dump</value>
-  </data>
-  <data name="menuTeleport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="menuTeleport.Text" xml:space="preserve">
-    <value>Teleport</value>
-  </data>
-  <data name="giveMoneyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="giveMoneyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Give Money</value>
-  </data>
-  <data name="sendMailToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="sendMailToolStripMenuItem.Text" xml:space="preserve">
-    <value>Send Mail</value>
   </data>
   <data name="menuCharacterOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 20</value>
@@ -235,40 +220,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuMain.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="menuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="menuEditConfig.Text" xml:space="preserve">
-    <value>Edit Config</value>
-  </data>
-  <data name="menuFileLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="menuFileLanguage.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="menuFileLanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
-  </data>
-  <data name="menuFileLanguageEnglish.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="menuFileLanguageFrench.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
-  </data>
-  <data name="menuFileLanguageFrench.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 6</value>
-  </data>
-  <data name="menuExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="menuExit.Text" xml:space="preserve">
-    <value>Exit</value>
+    <value>16</value>
   </data>
   <data name="menuStartServers.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+S</value>
@@ -393,6 +345,54 @@
   <data name="menuDeleteAccount.Text" xml:space="preserve">
     <value>Delete Account</value>
   </data>
+  <data name="menuDeleteCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="menuDeleteCharacter.Text" xml:space="preserve">
+    <value>Delete Character</value>
+  </data>
+  <data name="menuKickCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="menuKickCharacter.Text" xml:space="preserve">
+    <value>Kick Character</value>
+  </data>
+  <data name="menuSendMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="menuSendMessage.Text" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="menuWritePlayerDump.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="menuWritePlayerDump.Text" xml:space="preserve">
+    <value>Write Player Dump</value>
+  </data>
+  <data name="menuLoadPlayerDump.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="menuLoadPlayerDump.Text" xml:space="preserve">
+    <value>Load Player Dump</value>
+  </data>
+  <data name="menuTeleport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="menuTeleport.Text" xml:space="preserve">
+    <value>Teleport</value>
+  </data>
+  <data name="giveMoneyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="giveMoneyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Give Money</value>
+  </data>
+  <data name="sendMailToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="sendMailToolStripMenuItem.Text" xml:space="preserve">
+    <value>Send Mail</value>
+  </data>
   <data name="menuBanList.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 22</value>
   </data>
@@ -454,7 +454,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelMangosUpTime.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="labelUpTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -487,7 +487,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelUpTime.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="labelDaysUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -523,7 +523,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelDaysUp.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="buttonCreateAccount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -556,7 +556,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonCreateAccount.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <metadata name="statusStrip.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -586,7 +586,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="toolStripLabelCPU.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -646,7 +646,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonBroadcast.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="buttonSetMOTD.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -679,7 +679,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonSetMOTD.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="buttonBans.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -712,7 +712,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonBans.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="buttonLoadScripts.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -745,7 +745,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonLoadScripts.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="buttonShutdown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -778,7 +778,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonShutdown.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="buttonPlayerLimit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2549,7 +2549,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureLogo.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="tbcMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 30</value>
@@ -2938,6 +2938,39 @@
   <metadata name="consoleTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>291, 56</value>
   </metadata>
+  <data name="labelVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Corbel, 10pt, style=Bold</value>
+  </data>
+  <data name="labelVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 409</value>
+  </data>
+  <data name="labelVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="labelVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Name" xml:space="preserve">
+    <value>labelVersion</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -4637,6 +4670,12 @@
   <data name="&gt;&gt;giveMoneyToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;sendMailToolStripMenuItem.Name" xml:space="preserve">
+    <value>sendMailToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;sendMailToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;menuLists.Name" xml:space="preserve">
     <value>menuLists</value>
   </data>
@@ -4942,12 +4981,6 @@
   </data>
   <data name="&gt;&gt;consoleTimer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sendMailToolStripMenuItem.Name" xml:space="preserve">
-    <value>sendMailToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;sendMailToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ManguiMain</value>
