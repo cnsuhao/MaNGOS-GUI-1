@@ -5,18 +5,19 @@ using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
+using MaNGOS_GUI.Resources;
 
 namespace MaNGOS_GUI
 {
-    partial class AboutBox1 : Form
+    partial class showAbout : Form
     {
-        public AboutBox1()
+        public showAbout()
         {
             InitializeComponent();
-            this.Text = String.Format("About {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = String.Format("Ver. 1.0.0, Rev.{0}", (other.getrevision.revision));
-            this.labelCopyright.Text = String.Format("Authors: JD Guzman(2008), FrenchW(2008), JustZombe(2010)");
+           //this.Text = String.Format("About {0}", AssemblyTitle);
+           //this.labelProductName.Text = string.Format("{0}", labelProductName);
+           // this.labelVersion.Text = String.Format("Ver. 1.0.0, Rev.{0}", (other.getrevision.revision));
+           // this.labelCopyright.Text = String.Format("Authors: JD Guzman(2008), FrenchW(2008), JustZombe(2010)");
         }
 
         #region Методы доступа к атрибутам сборки

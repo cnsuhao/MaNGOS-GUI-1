@@ -198,27 +198,27 @@
     <comment>R.21</comment>
   </data>
   <data name="broadcastMessage_EnterMessage" xml:space="preserve">
-    <value>Entrez le message à broadcaster.</value>
+    <value>Введите сообщение для объявления</value>
     <comment>R.32</comment>
   </data>
   <data name="createAccount_AccountExists" xml:space="preserve">
-    <value>Ce compte existe déjà.</value>
+    <value>Такой аккаунт уже существует</value>
     <comment>R.32</comment>
   </data>
   <data name="createAccount_EnterAccountName" xml:space="preserve">
-    <value>Vous devez saisir un nom de compte pour pouvoir continuer.</value>
+    <value>Вы должны ввести имя аккаунта, чтобы продолжить</value>
     <comment>R.32</comment>
   </data>
   <data name="createAccount_EnterPassword" xml:space="preserve">
-    <value>Vous devez saisir un mot de passe pour pouvoir continuer</value>
+    <value>Вы должны ввести пароль, чтобы продолжить</value>
     <comment>R.32</comment>
   </data>
   <data name="deleteAccount_AccountDoesntExist" xml:space="preserve">
-    <value>Il n'y a pas de compte avec ce nom là dans la base.</value>
+    <value>Данный аккаунт не найден</value>
     <comment>R.32</comment>
   </data>
   <data name="deleteAccount_ConfirmDelete" xml:space="preserve">
-    <value>Etes-vous sûr de vouloir supprimer ce compte?</value>
+    <value>Действительно желаете удалить данный аккаунт?</value>
     <comment>R.32</comment>
   </data>
   <data name="deleteAccount_ConfirmDeleteCaption" xml:space="preserve">
