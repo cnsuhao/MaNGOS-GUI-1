@@ -937,8 +937,8 @@ namespace MaNGOS_GUI
             this.tbpMangosOutput.Appearance.PageClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tbpMangosOutput.Appearance.PageClient.Options.UseBackColor = true;
             this.tbpMangosOutput.Controls.Add(this.rtbConsoleText);
-            resources.ApplyResources(this.tbpMangosOutput, "tbpMangosOutput");
             this.tbpMangosOutput.Name = "tbpMangosOutput";
+            resources.ApplyResources(this.tbpMangosOutput, "tbpMangosOutput");
             // 
             // rtbConsoleText
             // 
@@ -951,8 +951,8 @@ namespace MaNGOS_GUI
             // tbpRealmOutput
             // 
             this.tbpRealmOutput.Controls.Add(this.rtbRealmText);
-            resources.ApplyResources(this.tbpRealmOutput, "tbpRealmOutput");
             this.tbpRealmOutput.Name = "tbpRealmOutput";
+            resources.ApplyResources(this.tbpRealmOutput, "tbpRealmOutput");
             // 
             // rtbRealmText
             // 
@@ -967,8 +967,8 @@ namespace MaNGOS_GUI
             this.tbpInfo.Controls.Add(this.groupAccountActions);
             this.tbpInfo.Controls.Add(this.btnRefresh);
             this.tbpInfo.Controls.Add(this.dataOnlineInfo);
-            resources.ApplyResources(this.tbpInfo, "tbpInfo");
             this.tbpInfo.Name = "tbpInfo";
+            resources.ApplyResources(this.tbpInfo, "tbpInfo");
             // 
             // groupAccountActions
             // 
