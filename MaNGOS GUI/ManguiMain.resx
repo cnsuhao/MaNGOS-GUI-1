@@ -396,7 +396,7 @@
     <value>0, 0</value>
   </data>
   <data name="menuMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>600, 24</value>
+    <value>694, 24</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuMain.TabIndex" type="System.Int32, mscorlib">
@@ -415,7 +415,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuMain.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <metadata name="performanceCounter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
@@ -454,7 +454,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelMangosUpTime.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="labelUpTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -487,7 +487,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelUpTime.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="labelDaysUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -523,7 +523,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelDaysUp.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="buttonCreateAccount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -556,7 +556,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonCreateAccount.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>415, 56</value>
@@ -595,7 +595,7 @@
     <value>0, 432</value>
   </data>
   <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>600, 22</value>
+    <value>694, 22</value>
   </data>
   <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -613,7 +613,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="buttonBroadcast.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -646,7 +646,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonBroadcast.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="buttonSetMOTD.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -679,7 +679,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonSetMOTD.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="buttonBans.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -712,7 +712,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonBans.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="buttonLoadScripts.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -745,7 +745,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonLoadScripts.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="buttonShutdown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -778,7 +778,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonShutdown.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="buttonPlayerLimit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -811,7 +811,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonPlayerLimit.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <metadata name="trayIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>515, 17</value>
@@ -2522,7 +2522,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonSaveAll.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="pictureLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -2531,7 +2531,7 @@
     <value>Stretch</value>
   </data>
   <data name="pictureLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>525, 27</value>
+    <value>619, 27</value>
   </data>
   <data name="pictureLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 399</value>
@@ -2549,7 +2549,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureLogo.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="tbcMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 30</value>
@@ -2564,7 +2564,7 @@
     <value>0, 0</value>
   </data>
   <data name="rtbConsoleText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 341</value>
+    <value>468, 341</value>
   </data>
   <data name="rtbConsoleText.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2585,7 +2585,7 @@
     <value>0</value>
   </data>
   <data name="tbpMangosOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 341</value>
+    <value>468, 341</value>
   </data>
   <data name="tbpMangosOutput.Text" xml:space="preserve">
     <value>Mangos Console</value>
@@ -2603,7 +2603,7 @@
     <value>0</value>
   </data>
   <data name="tbcMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 369</value>
+    <value>475, 369</value>
   </data>
   <data name="tbcMain.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -2618,7 +2618,7 @@
     <value>0, 0</value>
   </data>
   <data name="rtbRealmText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 341</value>
+    <value>453, 341</value>
   </data>
   <data name="rtbRealmText.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2639,7 +2639,7 @@
     <value>0</value>
   </data>
   <data name="tbpRealmOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 341</value>
+    <value>453, 341</value>
   </data>
   <data name="tbpRealmOutput.Text" xml:space="preserve">
     <value>Realm Console</value>
@@ -2795,7 +2795,7 @@
     <value>0, 0</value>
   </data>
   <data name="dataOnlineInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 284</value>
+    <value>453, 284</value>
   </data>
   <data name="dataOnlineInfo.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2813,7 +2813,7 @@
     <value>2</value>
   </data>
   <data name="tbpInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 341</value>
+    <value>453, 341</value>
   </data>
   <data name="tbpInfo.Text" xml:space="preserve">
     <value>Online Account Info</value>
@@ -2840,7 +2840,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbcMain.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <metadata name="consoleTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>291, 56</value>
@@ -2876,7 +2876,43 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelVersion.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
+  </data>
+  <data name="buttonCustomCommand.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="buttonCustomCommand.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="buttonCustomCommand.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Corbel, 9.75pt, style=Bold</value>
+  </data>
+  <data name="buttonCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 325</value>
+  </data>
+  <data name="buttonCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 30</value>
+  </data>
+  <data name="buttonCustomCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="buttonCustomCommand.Text" xml:space="preserve">
+    <value>Custom command</value>
+  </data>
+  <data name="&gt;&gt;buttonCustomCommand.Name" xml:space="preserve">
+    <value>buttonCustomCommand</value>
+  </data>
+  <data name="&gt;&gt;buttonCustomCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCustomCommand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCustomCommand.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -2891,7 +2927,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>600, 454</value>
+    <value>694, 454</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

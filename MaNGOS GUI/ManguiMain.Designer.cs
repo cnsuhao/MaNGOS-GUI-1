@@ -148,6 +148,7 @@ namespace MaNGOS_GUI
             this.dataOnlineInfo = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
             this.labelVersion = new System.Windows.Forms.Label();
+            this.buttonCustomCommand = new System.Windows.Forms.Button();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -1038,11 +1039,23 @@ namespace MaNGOS_GUI
             this.labelVersion.ForeColor = System.Drawing.Color.GreenYellow;
             this.labelVersion.Name = "labelVersion";
             // 
+            // buttonCustomCommand
+            // 
+            this.buttonCustomCommand.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.buttonCustomCommand, "buttonCustomCommand");
+            this.buttonCustomCommand.FlatAppearance.BorderSize = 0;
+            this.buttonCustomCommand.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonCustomCommand.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonCustomCommand.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonCustomCommand.Name = "buttonCustomCommand";
+            this.buttonCustomCommand.UseVisualStyleBackColor = false;
+            // 
             // ManguiMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.buttonCustomCommand);
             this.Controls.Add(this.tbcMain);
             this.Controls.Add(this.buttonSaveAll);
             this.Controls.Add(this.buttonPlayerLimit);
@@ -1201,6 +1214,7 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ToolStripMenuItem giveMoneyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sendMailToolStripMenuItem;
         private System.Windows.Forms.Label labelVersion;
+        private System.Windows.Forms.Button buttonCustomCommand;
     }
 }
 
