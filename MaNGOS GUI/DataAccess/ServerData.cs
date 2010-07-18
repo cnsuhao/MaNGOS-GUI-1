@@ -84,7 +84,7 @@ namespace MaNGOS_GUI.DataAccess
         {
             int p = 0;
             string connectString = ServerConnectStrings.realmConnectString();
-            string cmdString = "SELECT COUNT(*) FROM account WHERE online = '1'";
+            string cmdString = "SELECT COUNT(*) FROM account WHERE active_realm_id = '1'";
 
             MySqlConnection conn = new MySqlConnection(connectString);
             MySqlCommand cmd = new MySqlCommand(cmdString, conn);
@@ -267,7 +267,7 @@ namespace MaNGOS_GUI.DataAccess
             string connectString = ServerConnectStrings.realmConnectString();
             string cmdString = "SELECT realmd.account.username AS Account, " +
                                "characters.characters.name AS 'Character', realmd.account.last_ip AS IP, " +
-                               "realmd.account.gmlevel AS GM, realmd.account.tbc AS TBC FROM realmd.account " +
+                               "realmd.account.gmlevel AS GM, realmd.account.expansion AS TBC FROM realmd.account " +
                                "INNER JOIN characters.characters ON " +
                                "realmd.account.id = characters.characters.account WHERE " +
                                "characters.characters.online = 1;";
