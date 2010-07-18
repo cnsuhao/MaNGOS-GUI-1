@@ -146,9 +146,12 @@ namespace MaNGOS_GUI
             this.comboAccountActions = new System.Windows.Forms.ComboBox();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.dataOnlineInfo = new System.Windows.Forms.DataGridView();
+            this.tbpTickets = new DevExpress.XtraTab.XtraTabPage();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
             this.labelVersion = new System.Windows.Forms.Label();
             this.buttonCustomCommand = new System.Windows.Forms.Button();
+            this.dataTickets = new System.Windows.Forms.DataGridView();
+            this.buttonGetTickets = new System.Windows.Forms.Button();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -161,6 +164,8 @@ namespace MaNGOS_GUI
             this.tbpInfo.SuspendLayout();
             this.groupAccountActions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataOnlineInfo)).BeginInit();
+            this.tbpTickets.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).BeginInit();
             this.SuspendLayout();
             // 
             // menuMain
@@ -931,7 +936,8 @@ namespace MaNGOS_GUI
             this.tbcMain.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.tbpMangosOutput,
             this.tbpRealmOutput,
-            this.tbpInfo});
+            this.tbpInfo,
+            this.tbpTickets});
             // 
             // tbpMangosOutput
             // 
@@ -1026,6 +1032,13 @@ namespace MaNGOS_GUI
             this.dataOnlineInfo.ReadOnly = true;
             this.dataOnlineInfo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             // 
+            // tbpTickets
+            // 
+            this.tbpTickets.Controls.Add(this.buttonGetTickets);
+            this.tbpTickets.Controls.Add(this.dataTickets);
+            this.tbpTickets.Name = "tbpTickets";
+            resources.ApplyResources(this.tbpTickets, "tbpTickets");
+            // 
             // consoleTimer
             // 
             this.consoleTimer.Enabled = true;
@@ -1050,6 +1063,19 @@ namespace MaNGOS_GUI
             this.buttonCustomCommand.Name = "buttonCustomCommand";
             this.buttonCustomCommand.UseVisualStyleBackColor = false;
             // 
+            // dataTickets
+            // 
+            this.dataTickets.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataTickets, "dataTickets");
+            this.dataTickets.Name = "dataTickets";
+            // 
+            // buttonGetTickets
+            // 
+            resources.ApplyResources(this.buttonGetTickets, "buttonGetTickets");
+            this.buttonGetTickets.Name = "buttonGetTickets";
+            this.buttonGetTickets.UseVisualStyleBackColor = true;
+            this.buttonGetTickets.Click += new System.EventHandler(this.buttonGetTickets_Click);
+            // 
             // ManguiMain
             // 
             resources.ApplyResources(this, "$this");
@@ -1066,8 +1092,8 @@ namespace MaNGOS_GUI
             this.Controls.Add(this.buttonSetMOTD);
             this.Controls.Add(this.buttonBroadcast);
             this.Controls.Add(this.statusStrip);
-            this.Controls.Add(this.pictureLogo);
             this.Controls.Add(this.buttonCreateAccount);
+            this.Controls.Add(this.pictureLogo);
             this.Controls.Add(this.labelDaysUp);
             this.Controls.Add(this.labelUpTime);
             this.Controls.Add(this.labelMangosUpTime);
@@ -1089,6 +1115,8 @@ namespace MaNGOS_GUI
             this.tbpInfo.ResumeLayout(false);
             this.groupAccountActions.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataOnlineInfo)).EndInit();
+            this.tbpTickets.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1215,6 +1243,9 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ToolStripMenuItem sendMailToolStripMenuItem;
         private System.Windows.Forms.Label labelVersion;
         private System.Windows.Forms.Button buttonCustomCommand;
+        private DevExpress.XtraTab.XtraTabPage tbpTickets;
+        private System.Windows.Forms.DataGridView dataTickets;
+        private System.Windows.Forms.Button buttonGetTickets;
     }
 }
 

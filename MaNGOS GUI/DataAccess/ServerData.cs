@@ -292,6 +292,37 @@ namespace MaNGOS_GUI.DataAccess
             }
 
             return onlineList;
+
+        }
+
+        public DataTable getTickets()
+        {
+            string connectString = ServerConnectStrings.charConnectString();
+            string cmdString = "SELECT ticket_id, guid, ticket_text, response_text FROM characters.character_ticket;";
+                               //"SELECT guid Character GUID ID FROM characters.character_ticket;";
+                               //"characters.character_ticket.ticket_text AS GM FROM characters.character_ticket;";
+
+            MySqlConnection conn = new MySqlConnection(connectString);
+            MySqlCommand cmd = new MySqlCommand(cmdString, conn);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+            DataTable Tickets = new DataTable("Tickets");
+
+            try
+            {
+                conn.Open();
+                adapter.Fill(Tickets);
+            }
+            catch
+            {
+                MessageBox.Show(Resources.hcStringResources.Global_ErrorConnectingDB);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return Tickets;
+
         }
     }
 }

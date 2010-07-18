@@ -556,7 +556,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonCreateAccount.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>415, 56</value>
@@ -2549,28 +2549,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureLogo.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="tbcMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 30</value>
-  </data>
-  <data name="rtbConsoleText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="rtbConsoleText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 8.25pt</value>
-  </data>
-  <data name="rtbConsoleText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="rtbConsoleText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 341</value>
-  </data>
-  <data name="rtbConsoleText.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="rtbConsoleText.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;rtbConsoleText.Name" xml:space="preserve">
     <value>rtbConsoleText</value>
@@ -2692,6 +2674,69 @@
   <data name="&gt;&gt;tbpInfo.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="buttonGetTickets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 321</value>
+  </data>
+  <data name="buttonGetTickets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="buttonGetTickets.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonGetTickets.Text" xml:space="preserve">
+    <value>Get Tickets</value>
+  </data>
+  <data name="&gt;&gt;buttonGetTickets.Name" xml:space="preserve">
+    <value>buttonGetTickets</value>
+  </data>
+  <data name="&gt;&gt;buttonGetTickets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonGetTickets.Parent" xml:space="preserve">
+    <value>tbpTickets</value>
+  </data>
+  <data name="&gt;&gt;buttonGetTickets.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataTickets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dataTickets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 341</value>
+  </data>
+  <data name="dataTickets.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dataTickets.Name" xml:space="preserve">
+    <value>dataTickets</value>
+  </data>
+  <data name="&gt;&gt;dataTickets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataTickets.Parent" xml:space="preserve">
+    <value>tbpTickets</value>
+  </data>
+  <data name="&gt;&gt;dataTickets.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbpTickets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 341</value>
+  </data>
+  <data name="tbpTickets.Text" xml:space="preserve">
+    <value>Tickets</value>
+  </data>
+  <data name="&gt;&gt;tbpTickets.Name" xml:space="preserve">
+    <value>tbpTickets</value>
+  </data>
+  <data name="&gt;&gt;tbpTickets.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbpTickets.Parent" xml:space="preserve">
+    <value>tbcMain</value>
+  </data>
+  <data name="&gt;&gt;tbpTickets.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="&gt;&gt;tbcMain.Name" xml:space="preserve">
     <value>tbcMain</value>
   </data>
@@ -2703,6 +2748,36 @@
   </data>
   <data name="&gt;&gt;tbcMain.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="rtbConsoleText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtbConsoleText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="rtbConsoleText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtbConsoleText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 341</value>
+  </data>
+  <data name="rtbConsoleText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbConsoleText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rtbConsoleText.Name" xml:space="preserve">
+    <value>rtbConsoleText</value>
+  </data>
+  <data name="&gt;&gt;rtbConsoleText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbConsoleText.Parent" xml:space="preserve">
+    <value>tbpMangosOutput</value>
+  </data>
+  <data name="&gt;&gt;rtbConsoleText.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="rtbRealmText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

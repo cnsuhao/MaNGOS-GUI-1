@@ -1320,5 +1320,12 @@ namespace MaNGOS_GUI
                 MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
             }
         }
+
+        private void buttonGetTickets_Click(object sender, EventArgs e)
+        {
+            ServerData sData = new ServerData();
+
+            dataTickets.DataSource = sData.getTickets();
+        }
     }
 }
