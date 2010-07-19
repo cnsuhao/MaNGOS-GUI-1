@@ -1332,5 +1332,10 @@ namespace MaNGOS_GUI
         {
             MessageBox.Show("TODO");
         }
+
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TODO");
+        }
     }
 }

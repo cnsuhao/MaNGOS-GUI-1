@@ -525,7 +525,6 @@
     <Content Include="dlls\DevExpress.XtraEditors.v10.1.dll" />
     <Content Include="dlls\MySql.Data.dll" />
     <Content Include="images\wotlk.jpg" />
-    <Content Include="Untitled-1.ico" />
     <None Include="Resources\jens.ico" />
     <Content Include="Resources\SearchInFolder.bmp" />
     <None Include="Properties\app.manifest" />
@@ -567,6 +566,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
