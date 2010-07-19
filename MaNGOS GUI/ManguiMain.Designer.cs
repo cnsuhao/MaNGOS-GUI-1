@@ -147,11 +147,11 @@ namespace MaNGOS_GUI
             this.btnRefresh = new System.Windows.Forms.Button();
             this.dataOnlineInfo = new System.Windows.Forms.DataGridView();
             this.tbpTickets = new DevExpress.XtraTab.XtraTabPage();
+            this.buttonGetTickets = new System.Windows.Forms.Button();
+            this.dataTickets = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
             this.labelVersion = new System.Windows.Forms.Label();
             this.buttonCustomCommand = new System.Windows.Forms.Button();
-            this.dataTickets = new System.Windows.Forms.DataGridView();
-            this.buttonGetTickets = new System.Windows.Forms.Button();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -1039,6 +1039,19 @@ namespace MaNGOS_GUI
             this.tbpTickets.Name = "tbpTickets";
             resources.ApplyResources(this.tbpTickets, "tbpTickets");
             // 
+            // buttonGetTickets
+            // 
+            resources.ApplyResources(this.buttonGetTickets, "buttonGetTickets");
+            this.buttonGetTickets.Name = "buttonGetTickets";
+            this.buttonGetTickets.UseVisualStyleBackColor = true;
+            this.buttonGetTickets.Click += new System.EventHandler(this.buttonGetTickets_Click);
+            // 
+            // dataTickets
+            // 
+            this.dataTickets.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataTickets, "dataTickets");
+            this.dataTickets.Name = "dataTickets";
+            // 
             // consoleTimer
             // 
             this.consoleTimer.Enabled = true;
@@ -1062,19 +1075,7 @@ namespace MaNGOS_GUI
             this.buttonCustomCommand.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonCustomCommand.Name = "buttonCustomCommand";
             this.buttonCustomCommand.UseVisualStyleBackColor = false;
-            // 
-            // dataTickets
-            // 
-            this.dataTickets.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dataTickets, "dataTickets");
-            this.dataTickets.Name = "dataTickets";
-            // 
-            // buttonGetTickets
-            // 
-            resources.ApplyResources(this.buttonGetTickets, "buttonGetTickets");
-            this.buttonGetTickets.Name = "buttonGetTickets";
-            this.buttonGetTickets.UseVisualStyleBackColor = true;
-            this.buttonGetTickets.Click += new System.EventHandler(this.buttonGetTickets_Click);
+            this.buttonCustomCommand.Click += new System.EventHandler(this.buttonCustomCommand_Click);
             // 
             // ManguiMain
             // 

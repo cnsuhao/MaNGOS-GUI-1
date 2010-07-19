@@ -1327,5 +1327,10 @@ namespace MaNGOS_GUI
 
             dataTickets.DataSource = sData.getTickets();
         }
+
+        private void buttonCustomCommand_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TODO");
+        }
     }
 }
