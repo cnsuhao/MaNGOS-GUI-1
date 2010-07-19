@@ -120,6 +120,9 @@
   <metadata name="menuMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>405, 17</value>
   </metadata>
+  <metadata name="menuMain.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="menuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 22</value>
@@ -375,13 +378,13 @@
     <value>Lists</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>107, 22</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
   </data>
   <data name="aboutToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>107, 22</value>
   </data>
   <data name="aboutToolStripMenuItem1.Text" xml:space="preserve">
     <value>About</value>
@@ -396,7 +399,7 @@
     <value>0, 0</value>
   </data>
   <data name="menuMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>694, 24</value>
+    <value>845, 24</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuMain.TabIndex" type="System.Int32, mscorlib">
@@ -423,6 +426,9 @@
   <metadata name="cpuTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>189, 56</value>
   </metadata>
+  <metadata name="labelMangosUpTime.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="labelMangosUpTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -433,7 +439,7 @@
     <value>Corbel, 10pt, style=Bold</value>
   </data>
   <data name="labelMangosUpTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 409</value>
+    <value>5, 457</value>
   </data>
   <data name="labelMangosUpTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 17</value>
@@ -456,6 +462,9 @@
   <data name="&gt;&gt;labelMangosUpTime.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
+  <metadata name="labelUpTime.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="labelUpTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -466,7 +475,7 @@
     <value>Corbel, 10pt, style=Bold</value>
   </data>
   <data name="labelUpTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>234, 409</value>
+    <value>234, 457</value>
   </data>
   <data name="labelUpTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
@@ -489,6 +498,9 @@
   <data name="&gt;&gt;labelUpTime.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
+  <metadata name="labelDaysUp.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="labelDaysUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -499,7 +511,7 @@
     <value>Corbel, 10pt, style=Bold</value>
   </data>
   <data name="labelDaysUp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 409</value>
+    <value>130, 457</value>
   </data>
   <data name="labelDaysUp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -525,6 +537,9 @@
   <data name="&gt;&gt;labelDaysUp.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
+  <metadata name="buttonCreateAccount.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonCreateAccount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -592,10 +607,10 @@
     <value>MiddleRight</value>
   </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 432</value>
+    <value>0, 480</value>
   </data>
   <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>694, 22</value>
+    <value>845, 22</value>
   </data>
   <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -615,6 +630,9 @@
   <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <metadata name="buttonBroadcast.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonBroadcast.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -648,6 +666,9 @@
   <data name="&gt;&gt;buttonBroadcast.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <metadata name="buttonSetMOTD.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonSetMOTD.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -681,6 +702,9 @@
   <data name="&gt;&gt;buttonSetMOTD.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <metadata name="buttonBans.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonBans.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -714,6 +738,9 @@
   <data name="&gt;&gt;buttonBans.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <metadata name="buttonLoadScripts.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonLoadScripts.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -747,6 +774,9 @@
   <data name="&gt;&gt;buttonLoadScripts.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <metadata name="buttonShutdown.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonShutdown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -780,6 +810,9 @@
   <data name="&gt;&gt;buttonShutdown.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <metadata name="buttonPlayerLimit.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonPlayerLimit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -2491,6 +2524,9 @@
   <data name="trayIcon.Text" xml:space="preserve">
     <value>MaNGOS GUI</value>
   </data>
+  <metadata name="buttonSaveAll.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonSaveAll.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -2524,6 +2560,9 @@
   <data name="&gt;&gt;buttonSaveAll.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <metadata name="pictureLogo.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -2531,7 +2570,7 @@
     <value>Stretch</value>
   </data>
   <data name="pictureLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>619, 27</value>
+    <value>770, 27</value>
   </data>
   <data name="pictureLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 399</value>
@@ -2551,9 +2590,18 @@
   <data name="&gt;&gt;pictureLogo.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <metadata name="tbcMain.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="tbcMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 30</value>
   </data>
+  <metadata name="tbpMangosOutput.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="rtbConsoleText.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="rtbConsoleText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -2564,7 +2612,7 @@
     <value>0, 0</value>
   </data>
   <data name="rtbConsoleText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 341</value>
+    <value>622, 396</value>
   </data>
   <data name="rtbConsoleText.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2585,7 +2633,7 @@
     <value>0</value>
   </data>
   <data name="tbpMangosOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 341</value>
+    <value>622, 396</value>
   </data>
   <data name="tbpMangosOutput.Text" xml:space="preserve">
     <value>Mangos Console</value>
@@ -2603,11 +2651,17 @@
     <value>0</value>
   </data>
   <data name="tbcMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>475, 369</value>
+    <value>629, 424</value>
   </data>
   <data name="tbcMain.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
+  <metadata name="tbpRealmOutput.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="rtbRealmText.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="rtbRealmText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -2618,7 +2672,7 @@
     <value>0, 0</value>
   </data>
   <data name="rtbRealmText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 341</value>
+    <value>622, 396</value>
   </data>
   <data name="rtbRealmText.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2639,7 +2693,7 @@
     <value>0</value>
   </data>
   <data name="tbpRealmOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 341</value>
+    <value>622, 396</value>
   </data>
   <data name="tbpRealmOutput.Text" xml:space="preserve">
     <value>Realm Console</value>
@@ -2656,6 +2710,15 @@
   <data name="&gt;&gt;tbpRealmOutput.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="tbpInfo.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="groupAccountActions.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnGo.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="btnGo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -2683,6 +2746,9 @@
   <data name="&gt;&gt;btnGo.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="comboAccountActions.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="comboAccountActions.Items" xml:space="preserve">
     <value>Set GM</value>
   </data>
@@ -2764,6 +2830,9 @@
   <data name="&gt;&gt;groupAccountActions.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="btnRefresh.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
     <value>299, 303</value>
   </data>
@@ -2788,6 +2857,9 @@
   <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="dataOnlineInfo.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="dataOnlineInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -2795,7 +2867,7 @@
     <value>0, 0</value>
   </data>
   <data name="dataOnlineInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 284</value>
+    <value>622, 284</value>
   </data>
   <data name="dataOnlineInfo.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2813,7 +2885,7 @@
     <value>2</value>
   </data>
   <data name="tbpInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 341</value>
+    <value>622, 396</value>
   </data>
   <data name="tbpInfo.Text" xml:space="preserve">
     <value>Online Account Info</value>
@@ -2830,6 +2902,12 @@
   <data name="&gt;&gt;tbpInfo.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <metadata name="tbpTickets.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="buttonGetTickets.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonGetTickets.Location" type="System.Drawing.Point, System.Drawing">
     <value>395, 321</value>
   </data>
@@ -2854,6 +2932,9 @@
   <data name="&gt;&gt;buttonGetTickets.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="dataTickets.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="dataTickets.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -2876,7 +2957,7 @@
     <value>1</value>
   </data>
   <data name="tbpTickets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 341</value>
+    <value>622, 396</value>
   </data>
   <data name="tbpTickets.Text" xml:space="preserve">
     <value>Tickets</value>
@@ -2908,6 +2989,9 @@
   <metadata name="consoleTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>291, 56</value>
   </metadata>
+  <metadata name="labelVersion.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="labelVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -2921,13 +3005,16 @@
     <value>NoControl</value>
   </data>
   <data name="labelVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>354, 409</value>
+    <value>354, 457</value>
   </data>
   <data name="labelVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
+    <value>83, 17</value>
   </data>
   <data name="labelVersion.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
+  </data>
+  <data name="labelVersion.Text" xml:space="preserve">
+    <value>labelVersion</value>
   </data>
   <data name="&gt;&gt;labelVersion.Name" xml:space="preserve">
     <value>labelVersion</value>
@@ -2941,6 +3028,9 @@
   <data name="&gt;&gt;labelVersion.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <metadata name="buttonCustomCommand.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="buttonCustomCommand.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -2990,7 +3080,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>694, 454</value>
+    <value>845, 502</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
