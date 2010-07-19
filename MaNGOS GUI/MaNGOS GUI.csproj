@@ -525,7 +525,8 @@
     <Content Include="dlls\DevExpress.XtraEditors.v10.1.dll" />
     <Content Include="dlls\MySql.Data.dll" />
     <Content Include="images\wotlk.jpg" />
-    <Content Include="Resources\jens.ico" />
+    <Content Include="Untitled-1.ico" />
+    <None Include="Resources\jens.ico" />
     <Content Include="Resources\SearchInFolder.bmp" />
     <None Include="Properties\app.manifest" />
     <Content Include="Resources\MaNGOSGui.png" />

@@ -1275,9 +1275,9 @@ namespace MaNGOS_GUI
 
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-                    //Form showAboutBox1 = new showAbout();
-                    //showAboutBox1.Show();
-            MessageBox.Show("Temporary broken!");
+                    Form showAboutBox1 = new showAbout();
+                    showAboutBox1.Show();
+            //MessageBox.Show("Temporary broken!");
 
         }
 
