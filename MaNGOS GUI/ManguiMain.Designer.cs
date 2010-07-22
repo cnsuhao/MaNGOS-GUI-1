@@ -57,7 +57,12 @@ namespace MaNGOS_GUI
             this.menuBasicErrorLogLevel = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDetailLogLevel = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFullDebugLogLevel = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.broadcastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.setMOTDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAccountOptions = new System.Windows.Forms.ToolStripMenuItem();
+            this.createAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bannsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuSetBC = new System.Windows.Forms.ToolStripMenuItem();
             this.menuSetGM = new System.Windows.Forms.ToolStripMenuItem();
             this.menuSetPassword = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,17 +87,10 @@ namespace MaNGOS_GUI
             this.labelMangosUpTime = new System.Windows.Forms.Label();
             this.labelUpTime = new System.Windows.Forms.Label();
             this.labelDaysUp = new System.Windows.Forms.Label();
-            this.buttonCreateAccount = new System.Windows.Forms.Button();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripLabelCPU = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBarCPU = new System.Windows.Forms.ToolStripProgressBar();
             this.toolStripLabelOnline = new System.Windows.Forms.ToolStripStatusLabel();
-            this.buttonBroadcast = new System.Windows.Forms.Button();
-            this.buttonSetMOTD = new System.Windows.Forms.Button();
-            this.buttonBans = new System.Windows.Forms.Button();
-            this.buttonLoadScripts = new System.Windows.Forms.Button();
-            this.buttonShutdown = new System.Windows.Forms.Button();
-            this.buttonPlayerLimit = new System.Windows.Forms.Button();
             this.trayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.trayMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.trayMenuAddCommands = new System.Windows.Forms.ToolStripMenuItem();
@@ -133,7 +131,6 @@ namespace MaNGOS_GUI
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.trayMenuEditConfig = new System.Windows.Forms.ToolStripMenuItem();
             this.trayMenuClose = new System.Windows.Forms.ToolStripMenuItem();
-            this.buttonSaveAll = new System.Windows.Forms.Button();
             this.pictureLogo = new System.Windows.Forms.PictureBox();
             this.tbcMain = new DevExpress.XtraTab.XtraTabControl();
             this.tbpMangosOutput = new DevExpress.XtraTab.XtraTabPage();
@@ -151,7 +148,11 @@ namespace MaNGOS_GUI
             this.dataTickets = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
             this.labelVersion = new System.Windows.Forms.Label();
-            this.buttonCustomCommand = new System.Windows.Forms.Button();
+            this.loadScriptsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.shutdownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.playerLimitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.customCommandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -231,11 +232,19 @@ namespace MaNGOS_GUI
             // 
             this.menuServerOptions.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuStartServers,
+            this.shutdownToolStripMenuItem,
             this.toolStripSeparator2,
             this.menuMangosServer,
             this.menuRealmServer,
             this.toolStripSeparator9,
-            this.menuLogLevel});
+            this.menuLogLevel,
+            this.toolStripSeparator10,
+            this.broadcastToolStripMenuItem,
+            this.setMOTDToolStripMenuItem,
+            this.loadScriptsToolStripMenuItem,
+            this.playerLimitToolStripMenuItem,
+            this.saveAllToolStripMenuItem,
+            this.customCommandToolStripMenuItem});
             this.menuServerOptions.Name = "menuServerOptions";
             resources.ApplyResources(this.menuServerOptions, "menuServerOptions");
             // 
@@ -355,15 +364,46 @@ namespace MaNGOS_GUI
             resources.ApplyResources(this.menuFullDebugLogLevel, "menuFullDebugLogLevel");
             this.menuFullDebugLogLevel.Click += new System.EventHandler(this.menuFullDebugLogLevel_Click);
             // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            resources.ApplyResources(this.toolStripSeparator10, "toolStripSeparator10");
+            // 
+            // broadcastToolStripMenuItem
+            // 
+            this.broadcastToolStripMenuItem.Name = "broadcastToolStripMenuItem";
+            resources.ApplyResources(this.broadcastToolStripMenuItem, "broadcastToolStripMenuItem");
+            this.broadcastToolStripMenuItem.Click += new System.EventHandler(this.broadcastToolStripMenuItem_Click);
+            // 
+            // setMOTDToolStripMenuItem
+            // 
+            this.setMOTDToolStripMenuItem.Name = "setMOTDToolStripMenuItem";
+            resources.ApplyResources(this.setMOTDToolStripMenuItem, "setMOTDToolStripMenuItem");
+            this.setMOTDToolStripMenuItem.Click += new System.EventHandler(this.setMOTDToolStripMenuItem_Click);
+            // 
             // menuAccountOptions
             // 
             this.menuAccountOptions.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.createAccountToolStripMenuItem,
+            this.bannsToolStripMenuItem,
             this.menuSetBC,
             this.menuSetGM,
             this.menuSetPassword,
             this.menuDeleteAccount});
             this.menuAccountOptions.Name = "menuAccountOptions";
             resources.ApplyResources(this.menuAccountOptions, "menuAccountOptions");
+            // 
+            // createAccountToolStripMenuItem
+            // 
+            this.createAccountToolStripMenuItem.Name = "createAccountToolStripMenuItem";
+            resources.ApplyResources(this.createAccountToolStripMenuItem, "createAccountToolStripMenuItem");
+            this.createAccountToolStripMenuItem.Click += new System.EventHandler(this.createAccountToolStripMenuItem_Click);
+            // 
+            // bannsToolStripMenuItem
+            // 
+            this.bannsToolStripMenuItem.Name = "bannsToolStripMenuItem";
+            resources.ApplyResources(this.bannsToolStripMenuItem, "bannsToolStripMenuItem");
+            this.bannsToolStripMenuItem.Click += new System.EventHandler(this.bannsToolStripMenuItem_Click);
             // 
             // menuSetBC
             // 
@@ -522,18 +562,6 @@ namespace MaNGOS_GUI
             this.labelDaysUp.ForeColor = System.Drawing.Color.GreenYellow;
             this.labelDaysUp.Name = "labelDaysUp";
             // 
-            // buttonCreateAccount
-            // 
-            this.buttonCreateAccount.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonCreateAccount, "buttonCreateAccount");
-            this.buttonCreateAccount.FlatAppearance.BorderSize = 0;
-            this.buttonCreateAccount.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonCreateAccount.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonCreateAccount.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonCreateAccount.Name = "buttonCreateAccount";
-            this.buttonCreateAccount.UseVisualStyleBackColor = false;
-            this.buttonCreateAccount.Click += new System.EventHandler(this.buttonCreateAccount_Click);
-            // 
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -561,78 +589,6 @@ namespace MaNGOS_GUI
             this.toolStripLabelOnline.BackColor = System.Drawing.Color.Transparent;
             this.toolStripLabelOnline.Name = "toolStripLabelOnline";
             this.toolStripLabelOnline.Text = global::MaNGOS_GUI.Resources.hcStringResources.ManguiMain_Online;
-            // 
-            // buttonBroadcast
-            // 
-            this.buttonBroadcast.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonBroadcast, "buttonBroadcast");
-            this.buttonBroadcast.FlatAppearance.BorderSize = 0;
-            this.buttonBroadcast.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonBroadcast.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonBroadcast.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonBroadcast.Name = "buttonBroadcast";
-            this.buttonBroadcast.UseVisualStyleBackColor = false;
-            this.buttonBroadcast.Click += new System.EventHandler(this.buttonBroadcast_Click);
-            // 
-            // buttonSetMOTD
-            // 
-            this.buttonSetMOTD.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonSetMOTD, "buttonSetMOTD");
-            this.buttonSetMOTD.FlatAppearance.BorderSize = 0;
-            this.buttonSetMOTD.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonSetMOTD.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonSetMOTD.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonSetMOTD.Name = "buttonSetMOTD";
-            this.buttonSetMOTD.UseVisualStyleBackColor = false;
-            this.buttonSetMOTD.Click += new System.EventHandler(this.buttonSetMOTD_Click);
-            // 
-            // buttonBans
-            // 
-            this.buttonBans.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonBans, "buttonBans");
-            this.buttonBans.FlatAppearance.BorderSize = 0;
-            this.buttonBans.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonBans.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonBans.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonBans.Name = "buttonBans";
-            this.buttonBans.UseVisualStyleBackColor = false;
-            this.buttonBans.Click += new System.EventHandler(this.buttonBans_Click);
-            // 
-            // buttonLoadScripts
-            // 
-            this.buttonLoadScripts.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonLoadScripts, "buttonLoadScripts");
-            this.buttonLoadScripts.FlatAppearance.BorderSize = 0;
-            this.buttonLoadScripts.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonLoadScripts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonLoadScripts.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonLoadScripts.Name = "buttonLoadScripts";
-            this.buttonLoadScripts.UseVisualStyleBackColor = false;
-            this.buttonLoadScripts.Click += new System.EventHandler(this.buttonLoadScripts_Click);
-            // 
-            // buttonShutdown
-            // 
-            this.buttonShutdown.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonShutdown, "buttonShutdown");
-            this.buttonShutdown.FlatAppearance.BorderSize = 0;
-            this.buttonShutdown.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonShutdown.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonShutdown.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonShutdown.Name = "buttonShutdown";
-            this.buttonShutdown.UseVisualStyleBackColor = false;
-            this.buttonShutdown.Click += new System.EventHandler(this.buttonShutdown_Click);
-            // 
-            // buttonPlayerLimit
-            // 
-            this.buttonPlayerLimit.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonPlayerLimit, "buttonPlayerLimit");
-            this.buttonPlayerLimit.FlatAppearance.BorderSize = 0;
-            this.buttonPlayerLimit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonPlayerLimit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonPlayerLimit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonPlayerLimit.Name = "buttonPlayerLimit";
-            this.buttonPlayerLimit.UseVisualStyleBackColor = false;
-            this.buttonPlayerLimit.Click += new System.EventHandler(this.buttonPlayerLimit_Click);
             // 
             // trayIcon
             // 
@@ -768,7 +724,6 @@ namespace MaNGOS_GUI
             // 
             this.trayMenuCreateAccount.Name = "trayMenuCreateAccount";
             resources.ApplyResources(this.trayMenuCreateAccount, "trayMenuCreateAccount");
-            this.trayMenuCreateAccount.Click += new System.EventHandler(this.buttonCreateAccount_Click);
             // 
             // trayMenuDeleteAccount
             // 
@@ -904,18 +859,6 @@ namespace MaNGOS_GUI
             this.trayMenuClose.Name = "trayMenuClose";
             resources.ApplyResources(this.trayMenuClose, "trayMenuClose");
             this.trayMenuClose.Click += new System.EventHandler(this.menuExit_Click);
-            // 
-            // buttonSaveAll
-            // 
-            this.buttonSaveAll.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonSaveAll, "buttonSaveAll");
-            this.buttonSaveAll.FlatAppearance.BorderSize = 0;
-            this.buttonSaveAll.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonSaveAll.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonSaveAll.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonSaveAll.Name = "buttonSaveAll";
-            this.buttonSaveAll.UseVisualStyleBackColor = false;
-            this.buttonSaveAll.Click += new System.EventHandler(this.buttonSaveAll_Click);
             // 
             // pictureLogo
             // 
@@ -1066,35 +1009,44 @@ namespace MaNGOS_GUI
             this.labelVersion.ForeColor = System.Drawing.Color.GreenYellow;
             this.labelVersion.Name = "labelVersion";
             // 
-            // buttonCustomCommand
+            // loadScriptsToolStripMenuItem
             // 
-            this.buttonCustomCommand.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonCustomCommand, "buttonCustomCommand");
-            this.buttonCustomCommand.FlatAppearance.BorderSize = 0;
-            this.buttonCustomCommand.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonCustomCommand.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonCustomCommand.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonCustomCommand.Name = "buttonCustomCommand";
-            this.buttonCustomCommand.UseVisualStyleBackColor = false;
-            this.buttonCustomCommand.Click += new System.EventHandler(this.buttonCustomCommand_Click);
+            this.loadScriptsToolStripMenuItem.Name = "loadScriptsToolStripMenuItem";
+            resources.ApplyResources(this.loadScriptsToolStripMenuItem, "loadScriptsToolStripMenuItem");
+            this.loadScriptsToolStripMenuItem.Click += new System.EventHandler(this.loadScriptsToolStripMenuItem_Click);
+            // 
+            // shutdownToolStripMenuItem
+            // 
+            this.shutdownToolStripMenuItem.Name = "shutdownToolStripMenuItem";
+            resources.ApplyResources(this.shutdownToolStripMenuItem, "shutdownToolStripMenuItem");
+            this.shutdownToolStripMenuItem.Click += new System.EventHandler(this.shutdownToolStripMenuItem_Click);
+            // 
+            // playerLimitToolStripMenuItem
+            // 
+            this.playerLimitToolStripMenuItem.Name = "playerLimitToolStripMenuItem";
+            resources.ApplyResources(this.playerLimitToolStripMenuItem, "playerLimitToolStripMenuItem");
+            this.playerLimitToolStripMenuItem.Click += new System.EventHandler(this.playerLimitToolStripMenuItem_Click);
+            // 
+            // saveAllToolStripMenuItem
+            // 
+            this.saveAllToolStripMenuItem.Name = "saveAllToolStripMenuItem";
+            resources.ApplyResources(this.saveAllToolStripMenuItem, "saveAllToolStripMenuItem");
+            this.saveAllToolStripMenuItem.Click += new System.EventHandler(this.saveAllToolStripMenuItem_Click);
+            // 
+            // customCommandToolStripMenuItem
+            // 
+            this.customCommandToolStripMenuItem.Name = "customCommandToolStripMenuItem";
+            resources.ApplyResources(this.customCommandToolStripMenuItem, "customCommandToolStripMenuItem");
+            this.customCommandToolStripMenuItem.Click += new System.EventHandler(this.customCommandToolStripMenuItem_Click);
             // 
             // ManguiMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Controls.Add(this.buttonCustomCommand);
             this.Controls.Add(this.tbcMain);
-            this.Controls.Add(this.buttonSaveAll);
-            this.Controls.Add(this.buttonPlayerLimit);
             this.Controls.Add(this.labelVersion);
-            this.Controls.Add(this.buttonShutdown);
-            this.Controls.Add(this.buttonLoadScripts);
-            this.Controls.Add(this.buttonBans);
-            this.Controls.Add(this.buttonSetMOTD);
-            this.Controls.Add(this.buttonBroadcast);
             this.Controls.Add(this.statusStrip);
-            this.Controls.Add(this.buttonCreateAccount);
             this.Controls.Add(this.pictureLogo);
             this.Controls.Add(this.labelDaysUp);
             this.Controls.Add(this.labelUpTime);
@@ -1138,7 +1090,6 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.Label labelMangosUpTime;
         private System.Windows.Forms.Label labelUpTime;
         private System.Windows.Forms.Label labelDaysUp;
-        private System.Windows.Forms.Button buttonCreateAccount;
         private System.Windows.Forms.StatusStrip statusStrip;
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBarCPU;
         private System.Windows.Forms.ToolStripStatusLabel toolStripLabelCPU;
@@ -1154,12 +1105,6 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ToolStripMenuItem menuMangosRestart;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem menuRealmRestart;
-        private System.Windows.Forms.Button buttonBroadcast;
-        private System.Windows.Forms.Button buttonSetMOTD;
-        private System.Windows.Forms.Button buttonBans;
-        private System.Windows.Forms.Button buttonLoadScripts;
-        private System.Windows.Forms.Button buttonShutdown;
-        private System.Windows.Forms.Button buttonPlayerLimit;
         private System.Windows.Forms.ToolStripMenuItem menuAccountOptions;
         private System.Windows.Forms.ToolStripMenuItem menuDeleteAccount;
         private System.Windows.Forms.ToolStripMenuItem menuSetGM;
@@ -1193,7 +1138,6 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ToolStripMenuItem menuSetBC;
         private System.Windows.Forms.ToolStripMenuItem menuSetPassword;
         private System.Windows.Forms.ToolStripMenuItem trayMenuSetPassword;
-        private System.Windows.Forms.Button buttonSaveAll;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
         private System.Windows.Forms.ToolStripMenuItem trayMenuSaveAll;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
@@ -1244,10 +1188,19 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ToolStripMenuItem giveMoneyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sendMailToolStripMenuItem;
         private System.Windows.Forms.Label labelVersion;
-        private System.Windows.Forms.Button buttonCustomCommand;
         private DevExpress.XtraTab.XtraTabPage tbpTickets;
         private System.Windows.Forms.DataGridView dataTickets;
         private System.Windows.Forms.Button buttonGetTickets;
+        private System.Windows.Forms.ToolStripMenuItem createAccountToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
+        private System.Windows.Forms.ToolStripMenuItem broadcastToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem setMOTDToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bannsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem loadScriptsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem shutdownToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem playerLimitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveAllToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem customCommandToolStripMenuItem;
     }
 }
 

@@ -120,15 +120,86 @@
   <metadata name="menuMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>405, 17</value>
   </metadata>
-  <metadata name="menuMain.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuFile.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="menuFile.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="menuServerOptions.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+S</value>
+  </data>
+  <data name="menuServerOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="menuServerOptions.Text" xml:space="preserve">
+    <value>&amp;Server Options</value>
+  </data>
+  <data name="menuAccountOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 20</value>
+  </data>
+  <data name="menuAccountOptions.Text" xml:space="preserve">
+    <value>Account Options</value>
+  </data>
+  <data name="menuCharacterOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="menuCharacterOptions.Text" xml:space="preserve">
+    <value>Character Options</value>
+  </data>
+  <data name="menuLists.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="menuLists.Text" xml:space="preserve">
+    <value>Lists</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="menuMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>845, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuMain.Text" xml:space="preserve">
+    <value>menuStripMain</value>
+  </data>
+  <data name="&gt;&gt;menuMain.Name" xml:space="preserve">
+    <value>menuMain</value>
+  </data>
+  <data name="&gt;&gt;menuMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuMain.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="menuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="menuEditConfig.Text" xml:space="preserve">
     <value>Edit Config</value>
+  </data>
+  <data name="menuFileLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="menuFileLanguage.Text" xml:space="preserve">
+    <value>Language</value>
   </data>
   <data name="menuFileLanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 22</value>
@@ -142,12 +213,6 @@
   <data name="menuFileLanguageFrench.Text" xml:space="preserve">
     <value>Русский</value>
   </data>
-  <data name="menuFileLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="menuFileLanguage.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 6</value>
   </data>
@@ -156,16 +221,6 @@
   </data>
   <data name="menuExit.Text" xml:space="preserve">
     <value>Exit</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuFile.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+F</value>
-  </data>
-  <data name="menuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="menuFile.Text" xml:space="preserve">
-    <value>&amp;File</value>
   </data>
   <data name="menuStartServers.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+S</value>
@@ -178,6 +233,12 @@
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 6</value>
+  </data>
+  <data name="menuMangosServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="menuMangosServer.Text" xml:space="preserve">
+    <value>Mangos</value>
   </data>
   <data name="menuMangosStart.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 22</value>
@@ -200,11 +261,11 @@
   <data name="menuMangosRestart.Text" xml:space="preserve">
     <value>Auto Restart</value>
   </data>
-  <data name="menuMangosServer.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="menuRealmServer.Size" type="System.Drawing.Size, System.Drawing">
     <value>178, 22</value>
   </data>
-  <data name="menuMangosServer.Text" xml:space="preserve">
-    <value>Mangos</value>
+  <data name="menuRealmServer.Text" xml:space="preserve">
+    <value>Realm</value>
   </data>
   <data name="menuRealmStart.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 22</value>
@@ -227,14 +288,14 @@
   <data name="menuRealmRestart.Text" xml:space="preserve">
     <value>Auto Restart</value>
   </data>
-  <data name="menuRealmServer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
-  </data>
-  <data name="menuRealmServer.Text" xml:space="preserve">
-    <value>Realm</value>
-  </data>
   <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 6</value>
+  </data>
+  <data name="menuLogLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="menuLogLevel.Text" xml:space="preserve">
+    <value>Log Level</value>
   </data>
   <data name="menuMinimumLogLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
@@ -260,50 +321,56 @@
   <data name="menuFullDebugLogLevel.Text" xml:space="preserve">
     <value>Full/Debug</value>
   </data>
-  <data name="menuLogLevel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="broadcastToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>178, 22</value>
   </data>
-  <data name="menuLogLevel.Text" xml:space="preserve">
-    <value>Log Level</value>
+  <data name="broadcastToolStripMenuItem.Text" xml:space="preserve">
+    <value>Broadcast</value>
   </data>
-  <data name="menuServerOptions.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+S</value>
+  <data name="setMOTDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
   </data>
-  <data name="menuServerOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 20</value>
+  <data name="setMOTDToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set MOTD</value>
   </data>
-  <data name="menuServerOptions.Text" xml:space="preserve">
-    <value>&amp;Server Options</value>
+  <data name="createAccountToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="createAccountToolStripMenuItem.Text" xml:space="preserve">
+    <value>Create Account</value>
+  </data>
+  <data name="bannsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="bannsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bans</value>
   </data>
   <data name="menuSetBC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>156, 22</value>
   </data>
   <data name="menuSetBC.Text" xml:space="preserve">
     <value>Set Expansion</value>
   </data>
   <data name="menuSetGM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>156, 22</value>
   </data>
   <data name="menuSetGM.Text" xml:space="preserve">
     <value>Set GM</value>
   </data>
   <data name="menuSetPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>156, 22</value>
   </data>
   <data name="menuSetPassword.Text" xml:space="preserve">
     <value>Set Password</value>
   </data>
   <data name="menuDeleteAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>156, 22</value>
   </data>
   <data name="menuDeleteAccount.Text" xml:space="preserve">
     <value>Delete Account</value>
-  </data>
-  <data name="menuAccountOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 20</value>
-  </data>
-  <data name="menuAccountOptions.Text" xml:space="preserve">
-    <value>Account Options</value>
   </data>
   <data name="menuDeleteCharacter.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 22</value>
@@ -353,12 +420,6 @@
   <data name="sendMailToolStripMenuItem.Text" xml:space="preserve">
     <value>Send Mail</value>
   </data>
-  <data name="menuCharacterOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 20</value>
-  </data>
-  <data name="menuCharacterOptions.Text" xml:space="preserve">
-    <value>Character Options</value>
-  </data>
   <data name="menuBanList.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 22</value>
   </data>
@@ -370,12 +431,6 @@
   </data>
   <data name="menuGMList.Text" xml:space="preserve">
     <value>GM List</value>
-  </data>
-  <data name="menuLists.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
-  </data>
-  <data name="menuLists.Text" xml:space="preserve">
-    <value>Lists</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 22</value>
@@ -389,45 +444,11 @@
   <data name="aboutToolStripMenuItem1.Text" xml:space="preserve">
     <value>About</value>
   </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 20</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="menuMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>845, 24</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuMain.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="menuMain.Text" xml:space="preserve">
-    <value>menuStripMain</value>
-  </data>
-  <data name="&gt;&gt;menuMain.Name" xml:space="preserve">
-    <value>menuMain</value>
-  </data>
-  <data name="&gt;&gt;menuMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuMain.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
   <metadata name="performanceCounter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
   </metadata>
   <metadata name="cpuTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>189, 56</value>
-  </metadata>
-  <metadata name="labelMangosUpTime.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
   </metadata>
   <data name="labelMangosUpTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -460,11 +481,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelMangosUpTime.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>7</value>
   </data>
-  <metadata name="labelUpTime.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="labelUpTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -496,11 +514,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelUpTime.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>6</value>
   </data>
-  <metadata name="labelDaysUp.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="labelDaysUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -535,49 +550,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelDaysUp.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <metadata name="buttonCreateAccount.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonCreateAccount.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="buttonCreateAccount.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="buttonCreateAccount.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 9.75pt, style=Bold</value>
-  </data>
-  <data name="buttonCreateAccount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 37</value>
-  </data>
-  <data name="buttonCreateAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
-  </data>
-  <data name="buttonCreateAccount.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="buttonCreateAccount.Text" xml:space="preserve">
-    <value>Create Account</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateAccount.Name" xml:space="preserve">
-    <value>buttonCreateAccount</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateAccount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateAccount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateAccount.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>5</value>
   </data>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>415, 56</value>
-  </metadata>
-  <metadata name="statusStrip.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
   </metadata>
   <data name="toolStripLabelCPU.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -628,223 +604,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <metadata name="buttonBroadcast.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonBroadcast.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="buttonBroadcast.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="buttonBroadcast.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 9.75pt, style=Bold</value>
-  </data>
-  <data name="buttonBroadcast.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 73</value>
-  </data>
-  <data name="buttonBroadcast.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
-  </data>
-  <data name="buttonBroadcast.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="buttonBroadcast.Text" xml:space="preserve">
-    <value>Broadcast</value>
-  </data>
-  <data name="&gt;&gt;buttonBroadcast.Name" xml:space="preserve">
-    <value>buttonBroadcast</value>
-  </data>
-  <data name="&gt;&gt;buttonBroadcast.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonBroadcast.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonBroadcast.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <metadata name="buttonSetMOTD.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonSetMOTD.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="buttonSetMOTD.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="buttonSetMOTD.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 9.75pt, style=Bold</value>
-  </data>
-  <data name="buttonSetMOTD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 109</value>
-  </data>
-  <data name="buttonSetMOTD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
-  </data>
-  <data name="buttonSetMOTD.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="buttonSetMOTD.Text" xml:space="preserve">
-    <value>Set MOTD</value>
-  </data>
-  <data name="&gt;&gt;buttonSetMOTD.Name" xml:space="preserve">
-    <value>buttonSetMOTD</value>
-  </data>
-  <data name="&gt;&gt;buttonSetMOTD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonSetMOTD.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSetMOTD.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <metadata name="buttonBans.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonBans.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="buttonBans.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="buttonBans.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 9.75pt, style=Bold</value>
-  </data>
-  <data name="buttonBans.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 145</value>
-  </data>
-  <data name="buttonBans.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
-  </data>
-  <data name="buttonBans.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="buttonBans.Text" xml:space="preserve">
-    <value>Bans</value>
-  </data>
-  <data name="&gt;&gt;buttonBans.Name" xml:space="preserve">
-    <value>buttonBans</value>
-  </data>
-  <data name="&gt;&gt;buttonBans.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonBans.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonBans.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <metadata name="buttonLoadScripts.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonLoadScripts.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="buttonLoadScripts.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="buttonLoadScripts.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 9.75pt, style=Bold</value>
-  </data>
-  <data name="buttonLoadScripts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 181</value>
-  </data>
-  <data name="buttonLoadScripts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
-  </data>
-  <data name="buttonLoadScripts.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="buttonLoadScripts.Text" xml:space="preserve">
-    <value>Load Scripts</value>
-  </data>
-  <data name="&gt;&gt;buttonLoadScripts.Name" xml:space="preserve">
-    <value>buttonLoadScripts</value>
-  </data>
-  <data name="&gt;&gt;buttonLoadScripts.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonLoadScripts.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonLoadScripts.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <metadata name="buttonShutdown.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonShutdown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="buttonShutdown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="buttonShutdown.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 9.75pt, style=Bold</value>
-  </data>
-  <data name="buttonShutdown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 217</value>
-  </data>
-  <data name="buttonShutdown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
-  </data>
-  <data name="buttonShutdown.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="buttonShutdown.Text" xml:space="preserve">
-    <value>Shutdown</value>
-  </data>
-  <data name="&gt;&gt;buttonShutdown.Name" xml:space="preserve">
-    <value>buttonShutdown</value>
-  </data>
-  <data name="&gt;&gt;buttonShutdown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonShutdown.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonShutdown.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <metadata name="buttonPlayerLimit.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonPlayerLimit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="buttonPlayerLimit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="buttonPlayerLimit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 9.75pt, style=Bold</value>
-  </data>
-  <data name="buttonPlayerLimit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 253</value>
-  </data>
-  <data name="buttonPlayerLimit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
-  </data>
-  <data name="buttonPlayerLimit.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="buttonPlayerLimit.Text" xml:space="preserve">
-    <value>Player Limit</value>
-  </data>
-  <data name="&gt;&gt;buttonPlayerLimit.Name" xml:space="preserve">
-    <value>buttonPlayerLimit</value>
-  </data>
-  <data name="&gt;&gt;buttonPlayerLimit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonPlayerLimit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonPlayerLimit.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <metadata name="trayIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>515, 17</value>
@@ -852,222 +612,6 @@
   <metadata name="trayMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>610, 17</value>
   </metadata>
-  <data name="trayMenuBroadcast.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuBroadcast.Text" xml:space="preserve">
-    <value>Broadcast</value>
-  </data>
-  <data name="trayMenuSetMOTD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuSetMOTD.Text" xml:space="preserve">
-    <value>Set MOTD</value>
-  </data>
-  <data name="trayMenuBans.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuBans.Text" xml:space="preserve">
-    <value>Bans</value>
-  </data>
-  <data name="trayMenuLoadScripts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuLoadScripts.Text" xml:space="preserve">
-    <value>Load Scripts</value>
-  </data>
-  <data name="trayMenuShutdown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuShutdown.Text" xml:space="preserve">
-    <value>Shutdown</value>
-  </data>
-  <data name="trayMenuPlayerLimit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuPlayerLimit.Text" xml:space="preserve">
-    <value>Player Limit</value>
-  </data>
-  <data name="trayMenuAddCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuAddCommands.Text" xml:space="preserve">
-    <value>Additional Commands</value>
-  </data>
-  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
-  </data>
-  <data name="trayMenuDeleteCharacter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuDeleteCharacter.Text" xml:space="preserve">
-    <value>Delete Character</value>
-  </data>
-  <data name="trayMenuKickCharacter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuKickCharacter.Text" xml:space="preserve">
-    <value>Kick Character</value>
-  </data>
-  <data name="trayMenuSendMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuSendMessage.Text" xml:space="preserve">
-    <value>Send Message</value>
-  </data>
-  <data name="trayMenuWritePlayerDump.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuWritePlayerDump.Text" xml:space="preserve">
-    <value>Write Player Dump</value>
-  </data>
-  <data name="trayMenuLoadPlayerDump.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuLoadPlayerDump.Text" xml:space="preserve">
-    <value>Load Player Dump</value>
-  </data>
-  <data name="trayMenuTeleport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="trayMenuTeleport.Text" xml:space="preserve">
-    <value>Teleport</value>
-  </data>
-  <data name="characterOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="characterOptionsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Character Options</value>
-  </data>
-  <data name="trayMenuCreateAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuCreateAccount.Text" xml:space="preserve">
-    <value>Create Account</value>
-  </data>
-  <data name="trayMenuDeleteAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuDeleteAccount.Text" xml:space="preserve">
-    <value>Delete Account</value>
-  </data>
-  <data name="trayMenuSetPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuSetPassword.Text" xml:space="preserve">
-    <value>Set Password</value>
-  </data>
-  <data name="trayMenuSetBC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuSetBC.Text" xml:space="preserve">
-    <value>Set BC</value>
-  </data>
-  <data name="trayMenuSetGM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="trayMenuSetGM.Text" xml:space="preserve">
-    <value>Set GM</value>
-  </data>
-  <data name="trayMenuAccountOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuAccountOptions.Text" xml:space="preserve">
-    <value>Account Options</value>
-  </data>
-  <data name="trayMenuStartServers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuStartServers.Text" xml:space="preserve">
-    <value>Start Servers</value>
-  </data>
-  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 6</value>
-  </data>
-  <data name="trayMenuStartMangos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="trayMenuStartMangos.Text" xml:space="preserve">
-    <value>Start Mangos</value>
-  </data>
-  <data name="trayMenuStopMangos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="trayMenuStopMangos.Text" xml:space="preserve">
-    <value>Stop Mangos</value>
-  </data>
-  <data name="trayMenuMangos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuMangos.Text" xml:space="preserve">
-    <value>Mangos</value>
-  </data>
-  <data name="trayMenuStartRealm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="trayMenuStartRealm.Text" xml:space="preserve">
-    <value>Start Realm</value>
-  </data>
-  <data name="trayMenuStopRealm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="trayMenuStopRealm.Text" xml:space="preserve">
-    <value>Stop Realm</value>
-  </data>
-  <data name="trayMenuRealm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuRealm.Text" xml:space="preserve">
-    <value>Realm</value>
-  </data>
-  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 6</value>
-  </data>
-  <data name="trayMenuSaveAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="trayMenuSaveAll.Text" xml:space="preserve">
-    <value>Save All</value>
-  </data>
-  <data name="trayMenuServerOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuServerOptions.Text" xml:space="preserve">
-    <value>Server Options</value>
-  </data>
-  <data name="trayMenuBansList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="trayMenuBansList.Text" xml:space="preserve">
-    <value>Bans List</value>
-  </data>
-  <data name="trayMenuGMList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="trayMenuGMList.Text" xml:space="preserve">
-    <value>GM List</value>
-  </data>
-  <data name="trayMenuLists.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuLists.Text" xml:space="preserve">
-    <value>Lists</value>
-  </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
-  </data>
-  <data name="trayMenuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuEditConfig.Text" xml:space="preserve">
-    <value>Edit Config</value>
-  </data>
-  <data name="trayMenuClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="trayMenuClose.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
   <data name="trayMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 170</value>
   </data>
@@ -2524,45 +2068,222 @@
   <data name="trayIcon.Text" xml:space="preserve">
     <value>MaNGOS GUI</value>
   </data>
-  <metadata name="buttonSaveAll.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonSaveAll.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="trayMenuAddCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
   </data>
-  <data name="buttonSaveAll.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
+  <data name="trayMenuAddCommands.Text" xml:space="preserve">
+    <value>Additional Commands</value>
   </data>
-  <data name="buttonSaveAll.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 9.75pt, style=Bold</value>
+  <data name="trayMenuBroadcast.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
   </data>
-  <data name="buttonSaveAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 289</value>
+  <data name="trayMenuBroadcast.Text" xml:space="preserve">
+    <value>Broadcast</value>
   </data>
-  <data name="buttonSaveAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
+  <data name="trayMenuSetMOTD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
   </data>
-  <data name="buttonSaveAll.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="trayMenuSetMOTD.Text" xml:space="preserve">
+    <value>Set MOTD</value>
   </data>
-  <data name="buttonSaveAll.Text" xml:space="preserve">
+  <data name="trayMenuBans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuBans.Text" xml:space="preserve">
+    <value>Bans</value>
+  </data>
+  <data name="trayMenuLoadScripts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuLoadScripts.Text" xml:space="preserve">
+    <value>Load Scripts</value>
+  </data>
+  <data name="trayMenuShutdown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuShutdown.Text" xml:space="preserve">
+    <value>Shutdown</value>
+  </data>
+  <data name="trayMenuPlayerLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuPlayerLimit.Text" xml:space="preserve">
+    <value>Player Limit</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
+  </data>
+  <data name="characterOptionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="characterOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Character Options</value>
+  </data>
+  <data name="trayMenuDeleteCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuDeleteCharacter.Text" xml:space="preserve">
+    <value>Delete Character</value>
+  </data>
+  <data name="trayMenuKickCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuKickCharacter.Text" xml:space="preserve">
+    <value>Kick Character</value>
+  </data>
+  <data name="trayMenuSendMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuSendMessage.Text" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="trayMenuWritePlayerDump.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuWritePlayerDump.Text" xml:space="preserve">
+    <value>Write Player Dump</value>
+  </data>
+  <data name="trayMenuLoadPlayerDump.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuLoadPlayerDump.Text" xml:space="preserve">
+    <value>Load Player Dump</value>
+  </data>
+  <data name="trayMenuTeleport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="trayMenuTeleport.Text" xml:space="preserve">
+    <value>Teleport</value>
+  </data>
+  <data name="trayMenuAccountOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuAccountOptions.Text" xml:space="preserve">
+    <value>Account Options</value>
+  </data>
+  <data name="trayMenuCreateAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuCreateAccount.Text" xml:space="preserve">
+    <value>Create Account</value>
+  </data>
+  <data name="trayMenuDeleteAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuDeleteAccount.Text" xml:space="preserve">
+    <value>Delete Account</value>
+  </data>
+  <data name="trayMenuSetPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuSetPassword.Text" xml:space="preserve">
+    <value>Set Password</value>
+  </data>
+  <data name="trayMenuSetBC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuSetBC.Text" xml:space="preserve">
+    <value>Set BC</value>
+  </data>
+  <data name="trayMenuSetGM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="trayMenuSetGM.Text" xml:space="preserve">
+    <value>Set GM</value>
+  </data>
+  <data name="trayMenuServerOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuServerOptions.Text" xml:space="preserve">
+    <value>Server Options</value>
+  </data>
+  <data name="trayMenuStartServers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuStartServers.Text" xml:space="preserve">
+    <value>Start Servers</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 6</value>
+  </data>
+  <data name="trayMenuMangos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuMangos.Text" xml:space="preserve">
+    <value>Mangos</value>
+  </data>
+  <data name="trayMenuStartMangos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="trayMenuStartMangos.Text" xml:space="preserve">
+    <value>Start Mangos</value>
+  </data>
+  <data name="trayMenuStopMangos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="trayMenuStopMangos.Text" xml:space="preserve">
+    <value>Stop Mangos</value>
+  </data>
+  <data name="trayMenuRealm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuRealm.Text" xml:space="preserve">
+    <value>Realm</value>
+  </data>
+  <data name="trayMenuStartRealm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="trayMenuStartRealm.Text" xml:space="preserve">
+    <value>Start Realm</value>
+  </data>
+  <data name="trayMenuStopRealm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="trayMenuStopRealm.Text" xml:space="preserve">
+    <value>Stop Realm</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 6</value>
+  </data>
+  <data name="trayMenuSaveAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuSaveAll.Text" xml:space="preserve">
     <value>Save All</value>
   </data>
-  <data name="&gt;&gt;buttonSaveAll.Name" xml:space="preserve">
-    <value>buttonSaveAll</value>
+  <data name="trayMenuLists.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
   </data>
-  <data name="&gt;&gt;buttonSaveAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="trayMenuLists.Text" xml:space="preserve">
+    <value>Lists</value>
   </data>
-  <data name="&gt;&gt;buttonSaveAll.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="trayMenuBansList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
   </data>
-  <data name="&gt;&gt;buttonSaveAll.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="trayMenuBansList.Text" xml:space="preserve">
+    <value>Bans List</value>
   </data>
-  <metadata name="pictureLogo.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="trayMenuGMList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="trayMenuGMList.Text" xml:space="preserve">
+    <value>GM List</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
+  </data>
+  <data name="trayMenuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuEditConfig.Text" xml:space="preserve">
+    <value>Edit Config</value>
+  </data>
+  <data name="trayMenuClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="trayMenuClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
   <data name="pictureLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -2588,20 +2309,11 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureLogo.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>4</value>
   </data>
-  <metadata name="tbcMain.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="tbcMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>135, 30</value>
+    <value>8, 27</value>
   </data>
-  <metadata name="tbpMangosOutput.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="rtbConsoleText.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rtbConsoleText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -2612,7 +2324,7 @@
     <value>0, 0</value>
   </data>
   <data name="rtbConsoleText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>622, 396</value>
+    <value>749, 399</value>
   </data>
   <data name="rtbConsoleText.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2633,7 +2345,7 @@
     <value>0</value>
   </data>
   <data name="tbpMangosOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>622, 396</value>
+    <value>749, 399</value>
   </data>
   <data name="tbpMangosOutput.Text" xml:space="preserve">
     <value>Mangos Console</value>
@@ -2651,17 +2363,11 @@
     <value>0</value>
   </data>
   <data name="tbcMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>629, 424</value>
+    <value>756, 427</value>
   </data>
   <data name="tbcMain.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <metadata name="tbpRealmOutput.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="rtbRealmText.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rtbRealmText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -2710,15 +2416,6 @@
   <data name="&gt;&gt;tbpRealmOutput.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="tbpInfo.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="groupAccountActions.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="btnGo.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="btnGo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -2746,9 +2443,6 @@
   <data name="&gt;&gt;btnGo.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="comboAccountActions.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="comboAccountActions.Items" xml:space="preserve">
     <value>Set GM</value>
   </data>
@@ -2830,9 +2524,6 @@
   <data name="&gt;&gt;groupAccountActions.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="btnRefresh.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
     <value>299, 303</value>
   </data>
@@ -2857,9 +2548,6 @@
   <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="dataOnlineInfo.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="dataOnlineInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -2902,12 +2590,6 @@
   <data name="&gt;&gt;tbpInfo.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="tbpTickets.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="buttonGetTickets.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="buttonGetTickets.Location" type="System.Drawing.Point, System.Drawing">
     <value>395, 321</value>
   </data>
@@ -2932,9 +2614,6 @@
   <data name="&gt;&gt;buttonGetTickets.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="dataTickets.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="dataTickets.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -2984,13 +2663,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbcMain.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <metadata name="consoleTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>291, 56</value>
-  </metadata>
-  <metadata name="labelVersion.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
   </metadata>
   <data name="labelVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -3026,51 +2702,39 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelVersion.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>2</value>
   </data>
-  <metadata name="buttonCustomCommand.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonCustomCommand.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="loadScriptsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
   </data>
-  <data name="buttonCustomCommand.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
+  <data name="loadScriptsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Load Scripts</value>
   </data>
-  <data name="buttonCustomCommand.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 9.75pt, style=Bold</value>
+  <data name="shutdownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
   </data>
-  <data name="buttonCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="shutdownToolStripMenuItem.Text" xml:space="preserve">
+    <value>Shutdown</value>
   </data>
-  <data name="buttonCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 325</value>
+  <data name="playerLimitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
   </data>
-  <data name="buttonCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 30</value>
+  <data name="playerLimitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Player Limit</value>
   </data>
-  <data name="buttonCustomCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="saveAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
   </data>
-  <data name="buttonCustomCommand.Text" xml:space="preserve">
-    <value>Custom command</value>
+  <data name="saveAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save All</value>
   </data>
-  <data name="&gt;&gt;buttonCustomCommand.Name" xml:space="preserve">
-    <value>buttonCustomCommand</value>
+  <data name="customCommandToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
   </data>
-  <data name="&gt;&gt;buttonCustomCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonCustomCommand.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonCustomCommand.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="customCommandToolStripMenuItem.Text" xml:space="preserve">
+    <value>Custom Command</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
@@ -7652,10 +7316,40 @@
   <data name="&gt;&gt;menuFullDebugLogLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;broadcastToolStripMenuItem.Name" xml:space="preserve">
+    <value>broadcastToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;broadcastToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setMOTDToolStripMenuItem.Name" xml:space="preserve">
+    <value>setMOTDToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;setMOTDToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;menuAccountOptions.Name" xml:space="preserve">
     <value>menuAccountOptions</value>
   </data>
   <data name="&gt;&gt;menuAccountOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createAccountToolStripMenuItem.Name" xml:space="preserve">
+    <value>createAccountToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;createAccountToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bannsToolStripMenuItem.Name" xml:space="preserve">
+    <value>bannsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bannsToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuSetBC.Name" xml:space="preserve">
@@ -8041,6 +7735,36 @@
   </data>
   <data name="&gt;&gt;consoleTimer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loadScriptsToolStripMenuItem.Name" xml:space="preserve">
+    <value>loadScriptsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;loadScriptsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;shutdownToolStripMenuItem.Name" xml:space="preserve">
+    <value>shutdownToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;shutdownToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playerLimitToolStripMenuItem.Name" xml:space="preserve">
+    <value>playerLimitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;playerLimitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveAllToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveAllToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveAllToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customCommandToolStripMenuItem.Name" xml:space="preserve">
+    <value>customCommandToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;customCommandToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ManguiMain</value>

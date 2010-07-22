@@ -346,26 +346,6 @@ namespace MaNGOS_GUI
             timeCheckPop = 0;
         }
 
-        private void buttonCreateAccount_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (!mangosProcess.HasExited)
-                {
-                    Form showCreateAccount = new createAccount();
-                    showCreateAccount.Show();
-                }
-                else
-                {
-                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-                }
-            }
-            catch
-            {
-                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-            }
-        }
-
         private void buttonBroadcast_Click(object sender, EventArgs e)
         {
             try
@@ -1334,6 +1314,179 @@ namespace MaNGOS_GUI
         }
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TODO");
+        }
+
+        private void createAccountToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    Form showCreateAccount = new createAccount();
+                    showCreateAccount.Show();
+                }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
+        }
+
+        private void broadcastToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    Form showBroadcastMessage = new broadcastMessage();
+                    showBroadcastMessage.Show();
+                }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
+        }
+
+        private void setMOTDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    Form showSetMOTD = new setMOTD();
+                    showSetMOTD.Show();
+                }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
+        }
+
+        private void bannsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    Form showServerBans = new serverBans();
+                    showServerBans.Show();
+                }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
+        }
+
+        private void loadScriptsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    string commandString = "loadscripts";
+                    mangosProcess.StandardInput.WriteLine(commandString);
+
+                    ConfigAccess.updateLog(commandString);
+
+                    MessageBox.Show(string.Format(hcStringResources.Global_CommandSuccesful, commandString));
+                }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
+        }
+
+        private void shutdownToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    Form showServerShutdown = new serverShutdown();
+                    showServerShutdown.Show();
+                }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
+        }
+
+        private void playerLimitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    Form showPlayerLimit = new playerLimit();
+                    showPlayerLimit.Show();
+                }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
+        }
+
+        private void saveAllToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!mangosProcess.HasExited)
+                {
+                    string commandString = "saveall";
+                    mangosProcess.StandardInput.WriteLine(commandString);
+
+                    ConfigAccess.updateLog(commandString);
+
+                    MessageBox.Show(string.Format(hcStringResources.Global_CommandSuccesful, commandString));
+                }
+                else
+                {
+                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
+            }
+        }
+
+        private void customCommandToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("TODO");
         }
