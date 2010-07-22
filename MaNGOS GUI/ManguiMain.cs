@@ -1337,5 +1337,12 @@ namespace MaNGOS_GUI
         {
             MessageBox.Show("TODO");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ServerData sData = new ServerData();
+
+            dataAccounts.DataSource = sData.getAccountList();
+        }
     }
 }

@@ -153,6 +153,9 @@ namespace MaNGOS_GUI
             this.dataTickets = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
             this.labelVersion = new System.Windows.Forms.Label();
+            this.tbpAccounts = new DevExpress.XtraTab.XtraTabPage();
+            this.dataAccounts = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -167,6 +170,8 @@ namespace MaNGOS_GUI
             ((System.ComponentModel.ISupportInitialize)(this.dataOnlineInfo)).BeginInit();
             this.tbpTickets.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).BeginInit();
+            this.tbpAccounts.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataAccounts)).BeginInit();
             this.SuspendLayout();
             // 
             // menuMain
@@ -656,37 +661,31 @@ namespace MaNGOS_GUI
             // 
             this.trayMenuBroadcast.Name = "trayMenuBroadcast";
             resources.ApplyResources(this.trayMenuBroadcast, "trayMenuBroadcast");
-            this.trayMenuBroadcast.Click += new System.EventHandler(this.buttonBroadcast_Click);
             // 
             // trayMenuSetMOTD
             // 
             this.trayMenuSetMOTD.Name = "trayMenuSetMOTD";
             resources.ApplyResources(this.trayMenuSetMOTD, "trayMenuSetMOTD");
-            this.trayMenuSetMOTD.Click += new System.EventHandler(this.buttonSetMOTD_Click);
             // 
             // trayMenuBans
             // 
             this.trayMenuBans.Name = "trayMenuBans";
             resources.ApplyResources(this.trayMenuBans, "trayMenuBans");
-            this.trayMenuBans.Click += new System.EventHandler(this.buttonBans_Click);
             // 
             // trayMenuLoadScripts
             // 
             this.trayMenuLoadScripts.Name = "trayMenuLoadScripts";
             resources.ApplyResources(this.trayMenuLoadScripts, "trayMenuLoadScripts");
-            this.trayMenuLoadScripts.Click += new System.EventHandler(this.buttonLoadScripts_Click);
             // 
             // trayMenuShutdown
             // 
             this.trayMenuShutdown.Name = "trayMenuShutdown";
             resources.ApplyResources(this.trayMenuShutdown, "trayMenuShutdown");
-            this.trayMenuShutdown.Click += new System.EventHandler(this.buttonShutdown_Click);
             // 
             // trayMenuPlayerLimit
             // 
             this.trayMenuPlayerLimit.Name = "trayMenuPlayerLimit";
             resources.ApplyResources(this.trayMenuPlayerLimit, "trayMenuPlayerLimit");
-            this.trayMenuPlayerLimit.Click += new System.EventHandler(this.buttonPlayerLimit_Click);
             // 
             // toolStripSeparator7
             // 
@@ -851,7 +850,6 @@ namespace MaNGOS_GUI
             // 
             this.trayMenuSaveAll.Name = "trayMenuSaveAll";
             resources.ApplyResources(this.trayMenuSaveAll, "trayMenuSaveAll");
-            this.trayMenuSaveAll.Click += new System.EventHandler(this.buttonSaveAll_Click);
             // 
             // trayMenuLists
             // 
@@ -911,6 +909,7 @@ namespace MaNGOS_GUI
             this.tbpMangosOutput,
             this.tbpRealmOutput,
             this.tbpInfo,
+            this.tbpAccounts,
             this.tbpTickets});
             // 
             // tbpMangosOutput
@@ -1039,6 +1038,26 @@ namespace MaNGOS_GUI
             this.labelVersion.ForeColor = System.Drawing.Color.GreenYellow;
             this.labelVersion.Name = "labelVersion";
             // 
+            // tbpAccounts
+            // 
+            this.tbpAccounts.Controls.Add(this.button1);
+            this.tbpAccounts.Controls.Add(this.dataAccounts);
+            this.tbpAccounts.Name = "tbpAccounts";
+            resources.ApplyResources(this.tbpAccounts, "tbpAccounts");
+            // 
+            // dataAccounts
+            // 
+            this.dataAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataAccounts, "dataAccounts");
+            this.dataAccounts.Name = "dataAccounts";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ManguiMain
             // 
             resources.ApplyResources(this, "$this");
@@ -1071,6 +1090,8 @@ namespace MaNGOS_GUI
             ((System.ComponentModel.ISupportInitialize)(this.dataOnlineInfo)).EndInit();
             this.tbpTickets.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).EndInit();
+            this.tbpAccounts.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataAccounts)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1201,6 +1222,9 @@ namespace MaNGOS_GUI
         private System.Windows.Forms.ToolStripMenuItem playerLimitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem customCommandToolStripMenuItem;
+        private DevExpress.XtraTab.XtraTabPage tbpAccounts;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataAccounts;
     }
 }
 

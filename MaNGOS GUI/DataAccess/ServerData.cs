@@ -321,5 +321,31 @@ namespace MaNGOS_GUI.DataAccess
             return Tickets;
 
         }
+
+        public DataTable getAccountList()
+        {
+            string connectString = ServerConnectStrings.charConnectString();
+            string cmdString = "SELECT id, username, gmlevel, joindate, last_ip, active_realm_id, expansion FROM realmd.account;";
+            MySqlConnection conn = new MySqlConnection(connectString);
+            MySqlCommand cmd = new MySqlCommand(cmdString, conn);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+            DataTable Accounts = new DataTable("Accounts");
+
+            try
+            {
+                conn.Open();
+                adapter.Fill(Accounts);
+            }
+            catch
+            {
+                MessageBox.Show(Resources.hcStringResources.Global_ErrorConnectingDB);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return Accounts;
+        }
     }
 }
