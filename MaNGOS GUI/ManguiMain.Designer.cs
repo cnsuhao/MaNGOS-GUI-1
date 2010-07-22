@@ -148,14 +148,14 @@ namespace MaNGOS_GUI
             this.comboAccountActions = new System.Windows.Forms.ComboBox();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.dataOnlineInfo = new System.Windows.Forms.DataGridView();
+            this.tbpAccounts = new DevExpress.XtraTab.XtraTabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataAccounts = new System.Windows.Forms.DataGridView();
             this.tbpTickets = new DevExpress.XtraTab.XtraTabPage();
             this.buttonGetTickets = new System.Windows.Forms.Button();
             this.dataTickets = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
             this.labelVersion = new System.Windows.Forms.Label();
-            this.tbpAccounts = new DevExpress.XtraTab.XtraTabPage();
-            this.dataAccounts = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -168,10 +168,10 @@ namespace MaNGOS_GUI
             this.tbpInfo.SuspendLayout();
             this.groupAccountActions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataOnlineInfo)).BeginInit();
-            this.tbpTickets.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).BeginInit();
             this.tbpAccounts.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataAccounts)).BeginInit();
+            this.tbpTickets.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).BeginInit();
             this.SuspendLayout();
             // 
             // menuMain
@@ -1005,6 +1005,26 @@ namespace MaNGOS_GUI
             this.dataOnlineInfo.ReadOnly = true;
             this.dataOnlineInfo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             // 
+            // tbpAccounts
+            // 
+            this.tbpAccounts.Controls.Add(this.button1);
+            this.tbpAccounts.Controls.Add(this.dataAccounts);
+            this.tbpAccounts.Name = "tbpAccounts";
+            resources.ApplyResources(this.tbpAccounts, "tbpAccounts");
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dataAccounts
+            // 
+            this.dataAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataAccounts, "dataAccounts");
+            this.dataAccounts.Name = "dataAccounts";
+            // 
             // tbpTickets
             // 
             this.tbpTickets.Controls.Add(this.buttonGetTickets);
@@ -1038,26 +1058,6 @@ namespace MaNGOS_GUI
             this.labelVersion.ForeColor = System.Drawing.Color.GreenYellow;
             this.labelVersion.Name = "labelVersion";
             // 
-            // tbpAccounts
-            // 
-            this.tbpAccounts.Controls.Add(this.button1);
-            this.tbpAccounts.Controls.Add(this.dataAccounts);
-            this.tbpAccounts.Name = "tbpAccounts";
-            resources.ApplyResources(this.tbpAccounts, "tbpAccounts");
-            // 
-            // dataAccounts
-            // 
-            this.dataAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dataAccounts, "dataAccounts");
-            this.dataAccounts.Name = "dataAccounts";
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // ManguiMain
             // 
             resources.ApplyResources(this, "$this");
@@ -1088,10 +1088,10 @@ namespace MaNGOS_GUI
             this.tbpInfo.ResumeLayout(false);
             this.groupAccountActions.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataOnlineInfo)).EndInit();
-            this.tbpTickets.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).EndInit();
             this.tbpAccounts.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataAccounts)).EndInit();
+            this.tbpTickets.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

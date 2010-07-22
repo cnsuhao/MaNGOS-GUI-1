@@ -29,7 +29,7 @@ namespace MaNGOS_GUI
 
                         if (sData.checkCharacterExists(textCharacterName.Text))
                         {
-                            string commandString = "chardelete " + textCharacterName.Text;
+                            string commandString = "character erase " + textCharacterName.Text;
                             ManguiMain.mangosProcess.StandardInput.WriteLine(commandString);
 
                             ConfigAccess.updateLog(commandString);
