@@ -24,7 +24,7 @@ namespace MaNGOS_GUI
             {
                 try
                 {
-                    string commandString = "plimit " + textPlayerLimit.Text;
+                    string commandString = "server plimit " + textPlayerLimit.Text;
                     ManguiMain.mangosProcess.StandardInput.WriteLine(commandString);
 
                     ConfigAccess.updateLog(commandString);
