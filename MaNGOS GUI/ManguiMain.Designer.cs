@@ -40,6 +40,7 @@ namespace MaNGOS_GUI
             this.menuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuServerOptions = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStartServers = new System.Windows.Forms.ToolStripMenuItem();
+            this.shutdownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.menuMangosServer = new System.Windows.Forms.ToolStripMenuItem();
             this.menuMangosStart = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,6 +61,10 @@ namespace MaNGOS_GUI
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
             this.broadcastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.setMOTDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadScriptsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.playerLimitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.customCommandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAccountOptions = new System.Windows.Forms.ToolStripMenuItem();
             this.createAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bannsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -148,11 +153,6 @@ namespace MaNGOS_GUI
             this.dataTickets = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
             this.labelVersion = new System.Windows.Forms.Label();
-            this.loadScriptsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.shutdownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.playerLimitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.customCommandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -253,6 +253,12 @@ namespace MaNGOS_GUI
             this.menuStartServers.Name = "menuStartServers";
             resources.ApplyResources(this.menuStartServers, "menuStartServers");
             this.menuStartServers.Click += new System.EventHandler(this.menuStartServers_Click);
+            // 
+            // shutdownToolStripMenuItem
+            // 
+            this.shutdownToolStripMenuItem.Name = "shutdownToolStripMenuItem";
+            resources.ApplyResources(this.shutdownToolStripMenuItem, "shutdownToolStripMenuItem");
+            this.shutdownToolStripMenuItem.Click += new System.EventHandler(this.shutdownToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
@@ -380,6 +386,30 @@ namespace MaNGOS_GUI
             this.setMOTDToolStripMenuItem.Name = "setMOTDToolStripMenuItem";
             resources.ApplyResources(this.setMOTDToolStripMenuItem, "setMOTDToolStripMenuItem");
             this.setMOTDToolStripMenuItem.Click += new System.EventHandler(this.setMOTDToolStripMenuItem_Click);
+            // 
+            // loadScriptsToolStripMenuItem
+            // 
+            this.loadScriptsToolStripMenuItem.Name = "loadScriptsToolStripMenuItem";
+            resources.ApplyResources(this.loadScriptsToolStripMenuItem, "loadScriptsToolStripMenuItem");
+            this.loadScriptsToolStripMenuItem.Click += new System.EventHandler(this.loadScriptsToolStripMenuItem_Click);
+            // 
+            // playerLimitToolStripMenuItem
+            // 
+            this.playerLimitToolStripMenuItem.Name = "playerLimitToolStripMenuItem";
+            resources.ApplyResources(this.playerLimitToolStripMenuItem, "playerLimitToolStripMenuItem");
+            this.playerLimitToolStripMenuItem.Click += new System.EventHandler(this.playerLimitToolStripMenuItem_Click);
+            // 
+            // saveAllToolStripMenuItem
+            // 
+            this.saveAllToolStripMenuItem.Name = "saveAllToolStripMenuItem";
+            resources.ApplyResources(this.saveAllToolStripMenuItem, "saveAllToolStripMenuItem");
+            this.saveAllToolStripMenuItem.Click += new System.EventHandler(this.saveAllToolStripMenuItem_Click);
+            // 
+            // customCommandToolStripMenuItem
+            // 
+            this.customCommandToolStripMenuItem.Name = "customCommandToolStripMenuItem";
+            resources.ApplyResources(this.customCommandToolStripMenuItem, "customCommandToolStripMenuItem");
+            this.customCommandToolStripMenuItem.Click += new System.EventHandler(this.customCommandToolStripMenuItem_Click);
             // 
             // menuAccountOptions
             // 
@@ -1008,36 +1038,6 @@ namespace MaNGOS_GUI
             this.labelVersion.BackColor = System.Drawing.Color.Transparent;
             this.labelVersion.ForeColor = System.Drawing.Color.GreenYellow;
             this.labelVersion.Name = "labelVersion";
-            // 
-            // loadScriptsToolStripMenuItem
-            // 
-            this.loadScriptsToolStripMenuItem.Name = "loadScriptsToolStripMenuItem";
-            resources.ApplyResources(this.loadScriptsToolStripMenuItem, "loadScriptsToolStripMenuItem");
-            this.loadScriptsToolStripMenuItem.Click += new System.EventHandler(this.loadScriptsToolStripMenuItem_Click);
-            // 
-            // shutdownToolStripMenuItem
-            // 
-            this.shutdownToolStripMenuItem.Name = "shutdownToolStripMenuItem";
-            resources.ApplyResources(this.shutdownToolStripMenuItem, "shutdownToolStripMenuItem");
-            this.shutdownToolStripMenuItem.Click += new System.EventHandler(this.shutdownToolStripMenuItem_Click);
-            // 
-            // playerLimitToolStripMenuItem
-            // 
-            this.playerLimitToolStripMenuItem.Name = "playerLimitToolStripMenuItem";
-            resources.ApplyResources(this.playerLimitToolStripMenuItem, "playerLimitToolStripMenuItem");
-            this.playerLimitToolStripMenuItem.Click += new System.EventHandler(this.playerLimitToolStripMenuItem_Click);
-            // 
-            // saveAllToolStripMenuItem
-            // 
-            this.saveAllToolStripMenuItem.Name = "saveAllToolStripMenuItem";
-            resources.ApplyResources(this.saveAllToolStripMenuItem, "saveAllToolStripMenuItem");
-            this.saveAllToolStripMenuItem.Click += new System.EventHandler(this.saveAllToolStripMenuItem_Click);
-            // 
-            // customCommandToolStripMenuItem
-            // 
-            this.customCommandToolStripMenuItem.Name = "customCommandToolStripMenuItem";
-            resources.ApplyResources(this.customCommandToolStripMenuItem, "customCommandToolStripMenuItem");
-            this.customCommandToolStripMenuItem.Click += new System.EventHandler(this.customCommandToolStripMenuItem_Click);
             // 
             // ManguiMain
             // 

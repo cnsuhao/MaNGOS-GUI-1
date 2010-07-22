@@ -61,7 +61,7 @@ namespace MaNGOS_GUI.other {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 24.
+        ///   Looks up a localized string similar to 25.
         /// </summary>
         internal static string revision {
             get {

@@ -346,46 +346,6 @@ namespace MaNGOS_GUI
             timeCheckPop = 0;
         }
 
-        private void buttonBroadcast_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (!mangosProcess.HasExited)
-                {
-                    Form showBroadcastMessage = new broadcastMessage();
-                    showBroadcastMessage.Show();
-                }
-                else
-                {
-                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-                }
-            }
-            catch
-            {
-                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-            }
-        }
-
-        private void buttonSetMOTD_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (!mangosProcess.HasExited)
-                {
-                    Form showSetMOTD = new setMOTD();
-                    showSetMOTD.Show();
-                }
-                else
-                {
-                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-                }
-            }
-            catch
-            {
-                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-            }
-        }
-
         private void menuMangosStart_Click(object sender, EventArgs e)
         {
             try
@@ -511,90 +471,6 @@ namespace MaNGOS_GUI
             }
         }
 
-        private void buttonLoadScripts_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (!mangosProcess.HasExited)
-                {
-                    string commandString = "loadscripts";
-                    mangosProcess.StandardInput.WriteLine(commandString);
-
-                    ConfigAccess.updateLog(commandString);
-
-                    MessageBox.Show(string.Format(hcStringResources.Global_CommandSuccesful, commandString));
-                }
-                else
-                {
-                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-                }
-            }
-            catch
-            {
-                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-            }
-        }
-
-        private void buttonPlayerLimit_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (!mangosProcess.HasExited)
-                {
-                    Form showPlayerLimit = new playerLimit();
-                    showPlayerLimit.Show();
-                }
-                else
-                {
-                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-                }
-            }
-            catch
-            {
-                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-            }
-        }
-
-        private void buttonShutdown_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (!mangosProcess.HasExited)
-                {
-                    Form showServerShutdown = new serverShutdown();
-                    showServerShutdown.Show();
-                }
-                else
-                {
-                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-                }
-            }
-            catch
-            {
-                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-            }
-        }
-
-        private void buttonBans_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (!mangosProcess.HasExited)
-                {
-                    Form showServerBans = new serverBans();
-                    showServerBans.Show();
-                }
-                else
-                {
-                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-                }
-            }
-            catch
-            {
-                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-            }
-        }
-
         private void menuDeleteCharacter_Click(object sender, EventArgs e)
         {
             try
@@ -643,30 +519,6 @@ namespace MaNGOS_GUI
                 {
                     Form showSetPassword = new setPassword();
                     showSetPassword.Show();
-                }
-                else
-                {
-                    MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-                }
-            }
-            catch
-            {
-                MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
-            }
-        }
-
-        private void buttonSaveAll_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (!mangosProcess.HasExited)
-                {
-                    string commandString = "saveall";
-                    mangosProcess.StandardInput.WriteLine(commandString);
-
-                    ConfigAccess.updateLog(commandString);
-
-                    MessageBox.Show(string.Format(hcStringResources.Global_CommandSuccesful, commandString));
                 }
                 else
                 {
@@ -1306,11 +1158,6 @@ namespace MaNGOS_GUI
             ServerData sData = new ServerData();
 
             dataTickets.DataSource = sData.getTickets();
-        }
-
-        private void buttonCustomCommand_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("TODO");
         }
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
