@@ -1,0 +1,21 @@
+v.1.0.1 released (revision 29) 27.07.2010
+*Fixed a lot of functions
+ *Delete account fixed
+ *Create account fixed
+ *Set Expansion fixed (added support of WoTLK)
+ *Send message fixed
+ *Set GM fixed
+ *Shutdown fixed
+ *Online now fixed
+ *Player limit func. fixed
+*Added about box
+*All buttons moved to menu
+*Main window was resized
+*New ico
+*Added tickets list
+*Added account list
+*Added support of MVC 2010 (for developers)
+*Started working on russian localization(instead French)
+*Added Send Mail function
+*Added Give Money function
+*Added characters list

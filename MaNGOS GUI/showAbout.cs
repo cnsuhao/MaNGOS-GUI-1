@@ -14,7 +14,7 @@ namespace MaNGOS_GUI
         public showAbout()
         {
             InitializeComponent();
-            this.labelVersion.Text = String.Format("Ver. 1.0.0, Rev.{0}", (other.getrevision.revision));
+            this.labelVersion.Text = String.Format("Ver. 1.0.1, Rev.{0}", (other.getrevision.revision));
             this.labelCopyright.Text = String.Format("Authors: JD Guzman(2008), FrenchW(2008), JustZombe(2010). MaNGOS logo created by ZliS and licensed under cc-by-sa license");
         }
 

@@ -347,5 +347,31 @@ namespace MaNGOS_GUI.DataAccess
 
             return Accounts;
         }
+
+        public DataTable getCharacterList()
+        {
+            string connectString = ServerConnectStrings.charConnectString();
+            string cmdString = "SELECT guid, account, name, level, money, online FROM characters.characters;";
+            MySqlConnection conn = new MySqlConnection(connectString);
+            MySqlCommand cmd = new MySqlCommand(cmdString, conn);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+            DataTable Characters = new DataTable("Characters");
+
+            try
+            {
+                conn.Open();
+                adapter.Fill(Characters);
+            }
+            catch
+            {
+                MessageBox.Show(Resources.hcStringResources.Global_ErrorConnectingDB);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return Characters;
+        }
     }
 }

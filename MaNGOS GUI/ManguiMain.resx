@@ -122,7 +122,7 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="menuEditConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>133, 22</value>
   </data>
   <data name="menuEditConfig.Text" xml:space="preserve">
     <value>Edit Config</value>
@@ -140,16 +140,16 @@
     <value>Русский</value>
   </data>
   <data name="menuFileLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>133, 22</value>
   </data>
   <data name="menuFileLanguage.Text" xml:space="preserve">
     <value>Language</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
+    <value>130, 6</value>
   </data>
   <data name="menuExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>133, 22</value>
   </data>
   <data name="menuExit.Text" xml:space="preserve">
     <value>Exit</value>
@@ -414,13 +414,13 @@
     <value>Character Options</value>
   </data>
   <data name="menuBanList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>115, 22</value>
   </data>
   <data name="menuBanList.Text" xml:space="preserve">
     <value>Ban List</value>
   </data>
   <data name="menuGMList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>115, 22</value>
   </data>
   <data name="menuGMList.Text" xml:space="preserve">
     <value>GM List</value>
@@ -432,13 +432,13 @@
     <value>Lists</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>107, 22</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
   </data>
   <data name="aboutToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>107, 22</value>
   </data>
   <data name="aboutToolStripMenuItem1.Text" xml:space="preserve">
     <value>About</value>
@@ -2621,10 +2621,10 @@
     <value>2</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>638, 376</value>
+    <value>632, 377</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 22</value>
+    <value>117, 22</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2683,11 +2683,74 @@
   <data name="&gt;&gt;tbpAccounts.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 377</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Load Characters List</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>tbpCharacters</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataCharacters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dataCharacters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>749, 399</value>
+  </data>
+  <data name="dataCharacters.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataCharacters.Name" xml:space="preserve">
+    <value>dataCharacters</value>
+  </data>
+  <data name="&gt;&gt;dataCharacters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataCharacters.Parent" xml:space="preserve">
+    <value>tbpCharacters</value>
+  </data>
+  <data name="&gt;&gt;dataCharacters.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbpCharacters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>749, 399</value>
+  </data>
+  <data name="tbpCharacters.Text" xml:space="preserve">
+    <value>Characters</value>
+  </data>
+  <data name="&gt;&gt;tbpCharacters.Name" xml:space="preserve">
+    <value>tbpCharacters</value>
+  </data>
+  <data name="&gt;&gt;tbpCharacters.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbpCharacters.Parent" xml:space="preserve">
+    <value>tbcMain</value>
+  </data>
+  <data name="&gt;&gt;tbpCharacters.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="buttonGetTickets.Location" type="System.Drawing.Point, System.Drawing">
-    <value>639, 377</value>
+    <value>632, 377</value>
   </data>
   <data name="buttonGetTickets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 22</value>
+    <value>117, 22</value>
   </data>
   <data name="buttonGetTickets.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -2744,7 +2807,7 @@
     <value>tbcMain</value>
   </data>
   <data name="&gt;&gt;tbpTickets.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;tbcMain.Name" xml:space="preserve">
     <value>tbcMain</value>

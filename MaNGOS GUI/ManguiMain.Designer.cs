@@ -156,6 +156,9 @@ namespace MaNGOS_GUI
             this.dataTickets = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
             this.labelVersion = new System.Windows.Forms.Label();
+            this.tbpCharacters = new DevExpress.XtraTab.XtraTabPage();
+            this.dataCharacters = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -172,6 +175,8 @@ namespace MaNGOS_GUI
             ((System.ComponentModel.ISupportInitialize)(this.dataAccounts)).BeginInit();
             this.tbpTickets.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).BeginInit();
+            this.tbpCharacters.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataCharacters)).BeginInit();
             this.SuspendLayout();
             // 
             // menuMain
@@ -910,6 +915,7 @@ namespace MaNGOS_GUI
             this.tbpRealmOutput,
             this.tbpInfo,
             this.tbpAccounts,
+            this.tbpCharacters,
             this.tbpTickets});
             // 
             // tbpMangosOutput
@@ -1058,6 +1064,26 @@ namespace MaNGOS_GUI
             this.labelVersion.ForeColor = System.Drawing.Color.GreenYellow;
             this.labelVersion.Name = "labelVersion";
             // 
+            // tbpCharacters
+            // 
+            this.tbpCharacters.Controls.Add(this.button2);
+            this.tbpCharacters.Controls.Add(this.dataCharacters);
+            this.tbpCharacters.Name = "tbpCharacters";
+            resources.ApplyResources(this.tbpCharacters, "tbpCharacters");
+            // 
+            // dataCharacters
+            // 
+            this.dataCharacters.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataCharacters, "dataCharacters");
+            this.dataCharacters.Name = "dataCharacters";
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // ManguiMain
             // 
             resources.ApplyResources(this, "$this");
@@ -1092,6 +1118,8 @@ namespace MaNGOS_GUI
             ((System.ComponentModel.ISupportInitialize)(this.dataAccounts)).EndInit();
             this.tbpTickets.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).EndInit();
+            this.tbpCharacters.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataCharacters)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1225,6 +1253,9 @@ namespace MaNGOS_GUI
         private DevExpress.XtraTab.XtraTabPage tbpAccounts;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataAccounts;
+        private DevExpress.XtraTab.XtraTabPage tbpCharacters;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dataCharacters;
     }
 }
 

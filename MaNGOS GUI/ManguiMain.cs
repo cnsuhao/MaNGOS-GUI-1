@@ -50,7 +50,7 @@ namespace MaNGOS_GUI
             realmText = new StringBuilder();
             rtbConsoleText.Text = "Mangos not running ...";
             rtbRealmText.Text = "Realm not running ...";
-            this.labelVersion.Text = String.Format("Version 1.0.0, Revision {0}", (other.getrevision.revision));
+            this.labelVersion.Text = String.Format("Version 1.0.1, Revision {0}", (other.getrevision.revision));
         }
 
         private void getLogLevel()
@@ -1343,6 +1343,13 @@ namespace MaNGOS_GUI
             ServerData sData = new ServerData();
 
             dataAccounts.DataSource = sData.getAccountList();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ServerData sData = new ServerData();
+
+            dataCharacters.DataSource = sData.getCharacterList();
         }
     }
 }
