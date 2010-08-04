@@ -308,9 +308,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\hcStringResources.fr.resx">
+    <EmbeddedResource Include="Resources\hcStringResources.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>hcStringResources.fr.Designer.cs</LastGenOutput>
+      <LastGenOutput>hcStringResources.ru.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\hcStringResources.resx">
@@ -445,8 +445,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Resources\hcStringResources.fr.Designer.cs">
-      <DependentUpon>hcStringResources.fr.resx</DependentUpon>
+    <Compile Include="Resources\hcStringResources.ru.Designer.cs">
+      <DependentUpon>hcStringResources.ru.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>

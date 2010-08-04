@@ -128,16 +128,16 @@
     <value>Edit Config</value>
   </data>
   <data name="menuFileLanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>167, 22</value>
   </data>
   <data name="menuFileLanguageEnglish.Text" xml:space="preserve">
     <value>English</value>
   </data>
   <data name="menuFileLanguageFrench.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>167, 22</value>
   </data>
   <data name="menuFileLanguageFrench.Text" xml:space="preserve">
-    <value>Русский</value>
+    <value>Русский(Russian)</value>
   </data>
   <data name="menuFileLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 22</value>
@@ -2753,10 +2753,10 @@
     <value>117, 22</value>
   </data>
   <data name="buttonGetTickets.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>0</value>
   </data>
   <data name="buttonGetTickets.Text" xml:space="preserve">
-    <value>Get Tickets</value>
+    <value>Load Tickets</value>
   </data>
   <data name="&gt;&gt;buttonGetTickets.Name" xml:space="preserve">
     <value>buttonGetTickets</value>
@@ -2777,7 +2777,7 @@
     <value>749, 399</value>
   </data>
   <data name="dataTickets.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;dataTickets.Name" xml:space="preserve">
     <value>dataTickets</value>
@@ -2808,6 +2808,69 @@
   </data>
   <data name="&gt;&gt;tbpTickets.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="buttonGetItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 377</value>
+  </data>
+  <data name="buttonGetItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="buttonGetItems.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonGetItems.Text" xml:space="preserve">
+    <value>Load Items</value>
+  </data>
+  <data name="&gt;&gt;buttonGetItems.Name" xml:space="preserve">
+    <value>buttonGetItems</value>
+  </data>
+  <data name="&gt;&gt;buttonGetItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonGetItems.Parent" xml:space="preserve">
+    <value>tbpItemsList</value>
+  </data>
+  <data name="&gt;&gt;buttonGetItems.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dataItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>754, 399</value>
+  </data>
+  <data name="dataItems.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataItems.Name" xml:space="preserve">
+    <value>dataItems</value>
+  </data>
+  <data name="&gt;&gt;dataItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataItems.Parent" xml:space="preserve">
+    <value>tbpItemsList</value>
+  </data>
+  <data name="&gt;&gt;dataItems.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbpItemsList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>749, 399</value>
+  </data>
+  <data name="tbpItemsList.Text" xml:space="preserve">
+    <value>Items List</value>
+  </data>
+  <data name="&gt;&gt;tbpItemsList.Name" xml:space="preserve">
+    <value>tbpItemsList</value>
+  </data>
+  <data name="&gt;&gt;tbpItemsList.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbpItemsList.Parent" xml:space="preserve">
+    <value>tbcMain</value>
+  </data>
+  <data name="&gt;&gt;tbpItemsList.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;tbcMain.Name" xml:space="preserve">
     <value>tbcMain</value>

@@ -322,6 +322,7 @@ namespace MaNGOS_GUI.DataAccess
 
         }
 
+        // Грузим из БД список аккаунтов
         public DataTable getAccountList()
         {
             string connectString = ServerConnectStrings.charConnectString();
@@ -348,6 +349,7 @@ namespace MaNGOS_GUI.DataAccess
             return Accounts;
         }
 
+        // Грузим из БД список персонажей
         public DataTable getCharacterList()
         {
             string connectString = ServerConnectStrings.charConnectString();
@@ -372,6 +374,32 @@ namespace MaNGOS_GUI.DataAccess
             }
 
             return Characters;
+        }
+
+        public DataTable getItems()
+        {
+            string connectString = ServerConnectStrings.charConnectString();
+            string cmdString = "SELECT entry, class, name FROM mangos.item_template;";
+            MySqlConnection conn = new MySqlConnection(connectString);
+            MySqlCommand cmd = new MySqlCommand(cmdString, conn);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+            DataTable Items = new DataTable("Items");
+
+            try
+            {
+                conn.Open();
+                adapter.Fill(Items);
+            }
+            catch
+            {
+                MessageBox.Show(Resources.hcStringResources.Global_ErrorConnectingDB);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return Items;
         }
     }
 }

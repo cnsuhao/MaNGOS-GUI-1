@@ -748,7 +748,7 @@ namespace MaNGOS_GUI
 
         private void menuFileLanguageFrench_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.ChoosenLanguage = "fr";
+            Properties.Settings.Default.ChoosenLanguage = "ru";
             Properties.Settings.Default.Save();
             Application.Restart();
         }
@@ -1153,12 +1153,12 @@ namespace MaNGOS_GUI
             }
         }
 
-        private void buttonGetTickets_Click(object sender, EventArgs e)
-        {
-            ServerData sData = new ServerData();
-
-            dataTickets.DataSource = sData.getTickets();
-        }
+//        private void buttonGetTickets_Click(object sender, EventArgs e)
+//        {
+//            ServerData sData = new ServerData();
+//
+//            dataTickets.DataSource = sData.getTickets();
+//       }
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1288,7 +1288,7 @@ namespace MaNGOS_GUI
                 MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
             }
         }
-
+        #region Открывает форму установки лимита игроков
         private void playerLimitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
@@ -1308,7 +1308,8 @@ namespace MaNGOS_GUI
                 MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
             }
         }
-
+        #endregion
+        #region Выполняем команду save all при нажатии на кнопку
         private void saveAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
@@ -1332,24 +1333,43 @@ namespace MaNGOS_GUI
                 MessageBox.Show(hcStringResources.ManguiMain_MangosNotRunning);
             }
         }
-
+        #endregion
+        #region Показываем надпись TODO при нажатие на кнопку
         private void customCommandToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("TODO");
         }
-
+        #endregion
+        #region Грузим список аккаунтов при нажатии на кнопку
         private void button1_Click(object sender, EventArgs e)
         {
             ServerData sData = new ServerData();
 
             dataAccounts.DataSource = sData.getAccountList();
         }
-
+        #endregion
+        #region Загружаем список персонажей при нажатии кнопки
         private void button2_Click(object sender, EventArgs e)
         {
             ServerData sData = new ServerData();
 
             dataCharacters.DataSource = sData.getCharacterList();
+        }
+        #endregion
+        #region Загружаем тикеты по нажатию кнопки
+        private void buttonGetTickets_Click(object sender, EventArgs e)
+        {
+            ServerData sData = new ServerData();
+
+            dataTickets.DataSource = sData.getTickets();
+        }
+        #endregion
+
+        private void buttonGetItems_Click(object sender, EventArgs e)
+        {
+            ServerData sData = new ServerData();
+
+            dataItems.DataSource = sData.getItems();
         }
     }
 }
