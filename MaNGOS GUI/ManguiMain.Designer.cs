@@ -158,10 +158,12 @@ namespace MaNGOS_GUI
             this.buttonGetTickets = new System.Windows.Forms.Button();
             this.dataTickets = new System.Windows.Forms.DataGridView();
             this.tbpItemsList = new DevExpress.XtraTab.XtraTabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonAddItem = new System.Windows.Forms.Button();
+            this.buttonGetItems = new System.Windows.Forms.Button();
+            this.dataItems = new System.Windows.Forms.DataGridView();
             this.consoleTimer = new System.Windows.Forms.Timer(this.components);
             this.labelVersion = new System.Windows.Forms.Label();
-            this.dataItems = new System.Windows.Forms.DataGridView();
-            this.buttonGetItems = new System.Windows.Forms.Button();
             this.menuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -181,6 +183,7 @@ namespace MaNGOS_GUI
             this.tbpTickets.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).BeginInit();
             this.tbpItemsList.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataItems)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1077,10 +1080,37 @@ namespace MaNGOS_GUI
             // 
             // tbpItemsList
             // 
-            this.tbpItemsList.Controls.Add(this.buttonGetItems);
+            this.tbpItemsList.Controls.Add(this.panel1);
             this.tbpItemsList.Controls.Add(this.dataItems);
             this.tbpItemsList.Name = "tbpItemsList";
             resources.ApplyResources(this.tbpItemsList, "tbpItemsList");
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.buttonAddItem);
+            this.panel1.Controls.Add(this.buttonGetItems);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
+            // buttonAddItem
+            // 
+            resources.ApplyResources(this.buttonAddItem, "buttonAddItem");
+            this.buttonAddItem.Name = "buttonAddItem";
+            this.buttonAddItem.UseVisualStyleBackColor = true;
+            this.buttonAddItem.Click += new System.EventHandler(this.buttonAddItem_Click);
+            // 
+            // buttonGetItems
+            // 
+            resources.ApplyResources(this.buttonGetItems, "buttonGetItems");
+            this.buttonGetItems.Name = "buttonGetItems";
+            this.buttonGetItems.UseVisualStyleBackColor = true;
+            this.buttonGetItems.Click += new System.EventHandler(this.buttonGetItems_Click);
+            // 
+            // dataItems
+            // 
+            this.dataItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataItems, "dataItems");
+            this.dataItems.Name = "dataItems";
             // 
             // consoleTimer
             // 
@@ -1094,19 +1124,6 @@ namespace MaNGOS_GUI
             this.labelVersion.BackColor = System.Drawing.Color.Transparent;
             this.labelVersion.ForeColor = System.Drawing.Color.GreenYellow;
             this.labelVersion.Name = "labelVersion";
-            // 
-            // dataItems
-            // 
-            this.dataItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dataItems, "dataItems");
-            this.dataItems.Name = "dataItems";
-            // 
-            // buttonGetItems
-            // 
-            resources.ApplyResources(this.buttonGetItems, "buttonGetItems");
-            this.buttonGetItems.Name = "buttonGetItems";
-            this.buttonGetItems.UseVisualStyleBackColor = true;
-            this.buttonGetItems.Click += new System.EventHandler(this.buttonGetItems_Click);
             // 
             // ManguiMain
             // 
@@ -1145,6 +1162,7 @@ namespace MaNGOS_GUI
             this.tbpTickets.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataTickets)).EndInit();
             this.tbpItemsList.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataItems)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1285,6 +1303,8 @@ namespace MaNGOS_GUI
         private DevExpress.XtraTab.XtraTabPage tbpItemsList;
         private System.Windows.Forms.Button buttonGetItems;
         private System.Windows.Forms.DataGridView dataItems;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button buttonAddItem;
     }
 }
 

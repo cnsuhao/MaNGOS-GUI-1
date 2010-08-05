@@ -91,6 +91,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addItemArmor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addItemArmor.Designer.cs">
+      <DependentUpon>addItemArmor.cs</DependentUpon>
+    </Compile>
     <Compile Include="showAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,6 +199,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="addItemArmor.resx">
+      <DependentUpon>addItemArmor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="showAbout.resx">
       <DependentUpon>showAbout.cs</DependentUpon>
       <SubType>Designer</SubType>

@@ -2809,8 +2809,35 @@
   <data name="&gt;&gt;tbpTickets.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="buttonAddItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonAddItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="buttonAddItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="buttonAddItem.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonAddItem.Text" xml:space="preserve">
+    <value>Add Item</value>
+  </data>
+  <data name="&gt;&gt;buttonAddItem.Name" xml:space="preserve">
+    <value>buttonAddItem</value>
+  </data>
+  <data name="&gt;&gt;buttonAddItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddItem.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;buttonAddItem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="buttonGetItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>632, 377</value>
+    <value>629, 7</value>
   </data>
   <data name="buttonGetItems.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 22</value>
@@ -2828,16 +2855,37 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonGetItems.Parent" xml:space="preserve">
-    <value>tbpItemsList</value>
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;buttonGetItems.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 367</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>749, 32</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>tbpItemsList</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="dataItems.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="dataItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>754, 399</value>
+    <value>749, 399</value>
   </data>
   <data name="dataItems.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>

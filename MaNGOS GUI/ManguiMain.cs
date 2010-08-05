@@ -1371,5 +1371,11 @@ namespace MaNGOS_GUI
 
             dataItems.DataSource = sData.getItems();
         }
+
+        private void buttonAddItem_Click(object sender, EventArgs e)
+        {
+            Form showAddItemArmor = new addItemArmor();
+            showAddItemArmor.Show();
+        }
     }
 }
