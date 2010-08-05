@@ -401,5 +401,31 @@ namespace MaNGOS_GUI.DataAccess
 
             return Items;
         }
+
+  /*      public string AddItemArmor()
+        {
+            int p = 0;
+            string connectString = ServerConnectStrings.realmConnectString();
+            string cmdString = "INSERT COUNT(*) FROM account WHERE active_realm_id = '1'";
+
+            MySqlConnection conn = new MySqlConnection(connectString);
+            MySqlCommand cmd = new MySqlCommand(cmdString, conn);
+
+            try
+            {
+                conn.Open();
+                p = Convert.ToInt16(cmd.ExecuteScalar());
+            }
+            catch
+            {
+                MessageBox.Show(Resources.hcStringResources.Global_ErrorConnectingDB);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return p;
+        }*/
     }
 }
