@@ -1374,8 +1374,9 @@ namespace MaNGOS_GUI
 
         private void buttonAddItem_Click(object sender, EventArgs e)
         {
-            Form showAddItemArmor = new addItemArmor();
-            showAddItemArmor.Show();
+            MessageBox.Show(hcStringResources.ManguiMain_UnderDev);
+           // Form showAddItemArmor = new addItemArmor();
+           // showAddItemArmor.Show();
         }
     }
 }

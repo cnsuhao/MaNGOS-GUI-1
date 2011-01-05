@@ -367,6 +367,15 @@ namespace MaNGOS_GUI.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This function is under development.
+        /// </summary>
+        internal static string ManguiMain_UnderDev {
+            get {
+                return ResourceManager.GetString("ManguiMain_UnderDev", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to  -- Version: .
         /// </summary>
         internal static string ManguiMain_Version {

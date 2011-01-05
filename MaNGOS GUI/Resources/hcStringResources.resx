@@ -361,4 +361,7 @@
     <value>Please enter delay time in seconds.</value>
     <comment>R.32</comment>
   </data>
+  <data name="ManguiMain_UnderDev" xml:space="preserve">
+    <value>This function is under development</value>
+  </data>
 </root>

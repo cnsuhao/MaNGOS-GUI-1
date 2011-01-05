@@ -357,4 +357,7 @@
     <value>Saisissez le délai en secondes.</value>
     <comment>R.32</comment>
   </data>
+  <data name="ManguiMain_UnderDev" xml:space="preserve">
+    <value>*ToTranslate*</value>
+  </data>
 </root>
